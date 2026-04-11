@@ -4,14 +4,14 @@ NPC_DEATHWISH1 {
     sound_id NPCSkull
     text [
         "\nhey there"
-		"you don't\nseem from\naround here"
+		"you don't seem to be from here"
 		"would you like\nsome help\ngetting around?"
 		"i could even\ngive you\na tour!"
 		"this rock you stand on is the \"sleeping hill\""
 		"we can't forget the \"bigass tree\" right behind you"
 		"and my personal favorite is that trench down there"
-		"i call it\n\"the shitting\ncreek\"!"
-		". . .\ni was desperate,\nokay?"
+		"that's the \n\"the poopin'\ncreek\"!"
+		"'s called that\nfor a reason . . ."
     ]
 }
 NPC_DEATHWISH2 {
@@ -19,11 +19,11 @@ NPC_DEATHWISH2 {
     movieclip NPC16
     sound_id NPCSkull
     text [
-        "if you look\nat the stars\nlong enough . ."
-		"you might end up seeing your wish come true!"
-		"only if your wish is dying from star exposure though . ."
+        "if you gaze\nat the stars\nlong enough . ."
+		"your dearest wish will come true!"
+		"only if that wish is dying from star exposure though . ."
 		"\n. . ."
-		"i knew i should've wished for cool sunglasses . ."
+		"i should've wished for cool glasses . ."
     ]
 }
 NPC_DEATHWISH3 {
@@ -66,8 +66,8 @@ NPCM_DEATHWISH1 {
 		"all noisy and\nsmelly and whatnot\n. . ."
 		"i miss when\nit was just\ngood old me!"
 		"at this pace\nthey'll end up being\na real bother"
-		"\n. . . sorry"
-		"i didn't mean any of that . . . i swear!"
+		"unless they look and talk exactly like me"
+		"then we can be friends"
     ]
 }
 NPCM_DEATHWISH2 {
@@ -124,8 +124,8 @@ NPCH-1x {
         "\nthere"
 		"just\nremember\nwhat you saw"
 		"maybe something\nhas already\nchanged?"
-		"if not,\nthen better\nget to it . ."
-		"\nthe mother awaits"
+		"better get to it\nthen . ."
+		". . . don't keep her waiting"
     ]
 }
 
@@ -164,7 +164,7 @@ NPCMH2 {
         "\nhe did well"
 		"still\nlooking\nfor him?"
 		"i have checked,\nhe is not hiding\nunder my tongue"
-		"doesn't\nhurt to\ncheck again!"
+		"doesn't\nhurt to\ncheck twice!"
     ]
 }
 
@@ -248,14 +248,14 @@ NPCM_THEEND3 {
 		"i see you\nput on a\nfew pounds, huh?"
 		"that will\nmake it harder\nto jump"
 		"okay, i can\ngive you\nsome advice"
-		"from\nfatty to\nfatty"
+		"from\nbig-boned to\nbig-boned"
 		"see them hooks\ni talked\nabout before?"
 		"they can actually\nhelp you get\nsome extra height"
 		"let your\narms do\nall the work!"
 		"just make\nsure you\njump UP"
 		"i call it the\n\nhooker"
 		". . . made it up\non the spot"
-		"\nnot bad, eh?"
+		"i'll get better material eventually"
 	]
 }
 
@@ -314,7 +314,7 @@ NPCM_THEEND7 {
 		"blegh . . .\n\ni die"
 		"\n. . ."
 		"\n. . ."
-		"just\nfucking\nwith ya"
+		"just\nmessin\nwith ya"
     ]
 }
 
@@ -331,7 +331,7 @@ NPCM_THEEND8 {
 		"and now all of my memories from before are gone"
 		"\n. . ."
 		"\ngood!"
-		"come to me\noh sweet\noblivion!"
+		"i love me some sweet sweet oblivion!"
 	]
 }
 
@@ -348,7 +348,7 @@ NPCM_ARIDFLATS1 {
 		"actually\ni can't\nreally tell"
 		"blink once\nif you're\nnot fine"
 		"\n. . ."
-		"\nworks for me!"
+		". . . eh\nworks for me"
 	]
 }
 
@@ -405,8 +405,9 @@ NPCM_ARIDFLATS5 {
 		"what\ndid you\ndo?"
 		"fix\nthis\nbullshit"
 		"\nand do it quick!"
-		"i don't take it lightly when my rights are taken away from me"
-		"you wouldn't get it\n. . its a\n\"libra\" thing"
+		"i don't take it lightly when you take my rights away"
+		"first it's my guns, and now this!"
+		"ohh . . . what's the world coming to"
 	]
 }
 
@@ -433,7 +434,7 @@ NPCM_ARIDFLATS7 {
 		"where\ndo the\npipes go?"
 		"\nno clue!"
 		"that is up\nto you to\nfind out!"
-		"only if yer small\nenough to fit\nin them that is"
+		"only if your small\nenough to fit\nin them that is"
 		". . .\ntoo bad!"
     ]
 }
@@ -460,8 +461,8 @@ NPCM_ARIDFLATS9 {
     sound_id NPCSkull
     text [
         "\nwoah!"
-		"jesus, sorry,\ndidn't mean\nto scare you"
-		"ok, fuck it,\nsee these\nsprings?"
+		"didn't mean\nto scare you"
+		"\nsee these springs?"
 		"you know\nhow they\nwork, right?"
 		"to jump higher\nyoull need to\nHOLD your jump"
 		"well, now\nit's gonna be\na bit harder"
@@ -478,13 +479,16 @@ NPCM_ARIDFLATS10 {
     sound_id NPCBlob
     text [
 		"this place\n\nis faulted"
-		"just an\necho of what\nonce was"
-		"it seems\nyou forgot\nsomething"
-		"you must\nseek the\nanomaly"
-		"the restoration\ndepends\non it"
-		"only you\ncan do\nthis"
-		"\nunderstand?"
-		"well then,\nwe will be\nwatching"
+		"just an echo,\n\nof what once was"
+		"\n. . ."
+		"aren't you,\n\nforgetting something?"
+		"something,\n\nmissing?"
+		"you must\n\nsearch for it"
+		"all of this,\n\ndepends on it"
+		"and you are,\n\nthe only one"
+		"the only one,\n\nthat can do it"
+		"\n\nunderstand?"
+		"well then,\n\nwe will watch"
     ]
 }
 
@@ -496,8 +500,8 @@ NPCM_OVERFLOW1 {
 	sound_id NPCSkull
 	text [
 		"\npft look"
-		"i have no\nfucking clue\nwho you are"
-		"but why the fuck\nare you looking\nat my pond that way"
+		"i have no\ndamn clue\nwho you are"
+		"but why the hell\nare you looking\nat my pond that way"
 		"it is\nMY\npond!"
 		"and only i\ncan die from\ndrinking off it!"
 		"so fuck off\nbefore i call\nthe creep police"
@@ -513,7 +517,7 @@ NPCM_OVERFLOW2 {
 		"don't want our\nonly hope to\ndie on acid"
         "i'll take\nthe bullet\nif you want"
 		"just let me\nget down there\nand . . ."
-        "\n. . .\noh, right"
+        "\n. . .\noh . . right"
 	]
 }
 
@@ -548,7 +552,7 @@ NPCM_OVERFLOW5 {
 		"\nshucks"
 		"\n. . ."
 		"now it's\neven less of\nan achievement"
-		"well,\ni tried"
+		"well, at least i was the first to do it"
 	]
 }
 
@@ -560,7 +564,7 @@ NPCM_OVERFLOW6 {
 		"\nah ha!"
 		"dreaming\nworlds into\nexistence!"
 		"i must\nsay, that's\npretty clever!"
-		"but i'd still\nrather be aware\nits all fake!"
+		"but i'd still\nrather be aware\nit's all fake!"
 		"real shame\nthe others\nhaven't realized yet!"
 		". . .\noh but enough\nof that!"
 		"i'm interested\nto see where\nthis goes!"
@@ -632,8 +636,8 @@ NPCM_OVERFLOW9 {
 		"the water fills\n\nthe glass"
 		"spills, the\nwater fills\nthe glass spills"
 		"fills, the\nglass spills\nthe water fills"
-		"wait, shit . .\ni almost\nhad it"
-		"could you eff off?\ni'm trying\nto focus here"
+		"wait, crap . .\ni almost\nhad it"
+		"could you eff off?\ni'm trying\nto focus here!"
     ]
 }
 
@@ -643,7 +647,7 @@ NPCM_OVERFLOW10 {
     sound_id NPCSkull
     text [
 		"i see you\nthere flatulating\naround everywhere"
-		"a real\ncropduster\nin the flesh"
+		"a real\ncropduster\nin the flesh!"
 		"however if you keep\ndoing that you'll\njust run out of air"
 		"instead\ntry to fart\nunderwater"
 		"underwater\nfarts are free\nso to speak"
@@ -659,15 +663,16 @@ NPCM_OVERFLOW11 {
     movieclip NPCMM2
     sound_id NPCBlob
     text [
-		"it is imperious\nthat you\nfix this"
-		"remember you\nmust find the\nanomaly"
-		"that \"stain\"\nyou left\nbehind"
-		"the\nmost recent\nto be precise"
-		"you really tried\nto hide it\naway from us"
-		"but we know\nit is still\nin there somewhere"
+		"it is imperious,\nthat you\nfix this"
+		"\n\nremember?"
+		"you must find,\n\nthe missing link"
+		"that \"stain\"\n\nyou left behind"
+		"the most recent,\n\nto be precise"
+		"you tried hard,\n\nto hide it from us"
+		"but we know,\nit is still,\nin there"
 		"\n. . ."
-		"to get there\nyou need to\nrecover the past"
-		"you know\nwhat\nto do"
+		"to get there,\n\nyou need to recall"
+		". . . you know\n\nwhat to do"
     ]
 }
 
@@ -682,7 +687,7 @@ NPCM_SPLIT1 {
         "umm you can\nhave my videogame\nif you want"
 		"it's all i\nhave to offer\ni'm sorry"
 		"oh right\nthe path uh\nclosed off"
-		"please\ndon't\nkill me"
+		"please don't kill me"
 	]
 }
 
@@ -692,10 +697,10 @@ NPCM_SPLIT2 {
 	sound_id NPCSkull
 	text [
 		"this morning\ni had\nanother dream"
-        "it was of\nsomething\ntelling me"
+        "it was something\ntelling me . ."
         "you can switch\ncharacters from\nthe map menu"
         "\n. . ."
-        "is it\nbecoming\na habit?"
+        "is this\nbecoming\na habit?"
 	]
 }
 
@@ -706,6 +711,7 @@ NPCM_WALL1 {
 	movieclip NPCG6
 	sound_id NPCGhost
 	text [
+		"\n. . ."
 		"\n. . ."
 		"\nfuck off!"
 	]
@@ -719,8 +725,9 @@ NPCM_WALL2 {
 		"\n. . ."
 		"\ni see"
 		"this\nisn't real\nis it"
-		"that's\nfine by\nme"
+		"that's fine by me"
 		"but i wish\nyou'd let us\nhave some peace"
+		"even in your own thoughts"
 	]
 }
 
@@ -781,7 +788,7 @@ NPCM_EXODUS4 {
     sound_id NPCGhost
     text [
         "\n. . ."
-        "\nshit!"
+        "\ndamn it!"
 		"i thought for\nsure you wouldn't\nfind me"
 		"hid myself\nup here for\na reason"
 		"usually works,\nlittle shits\ncannot fly . ."
@@ -853,7 +860,7 @@ NPCM_RETROGRADE4 {
 		"i'm the villain!\ni'm the rotten apple\nin the basket!"
 		"get a life?\ndon't wanna!!"
 		"whatcha\ngonna do\nabout it?!"
-		"\nmwa ha ha!"
+		"\nheheheh"
 	]
 }
 
@@ -915,12 +922,9 @@ NPCM_MACHINE3 {
 		"beep\nbeep\nbeep"
         "beep\nbeep\nbeep"
         "\n. . ."
-        "that was my\nheart rate\nmonitor"
-		"please\npull the\nplug"
+        "that was my\nheart rate monitor"
 		"\n. . ."
-		"not like that\nwill kill\nme anyway"
-		"since\n. . .\nyou know"
-		"the whole\ndead\nthing?"
+		"please pull the plug"
 	]
 }
 
@@ -929,9 +933,9 @@ NPCM_MACHINE4 {
 	movieclip NPCD5
 	sound_id NPCBlob
 	text [
-		"HAHAHA!\nyou trick\nus!"
-		"she\ntrick us\nalso!" 
-		"you win some\nyou lose\nsome!"
+		"HAHAHA!\nyou trick us!"
+		"she trick us\nalso!" 
+		"you win some\nyou lose some!"
 	]
 }
 
@@ -941,15 +945,16 @@ NPCM_MACHINE5 {
     sound_id NPCGhost
     text [
         "\nhmm . . ."
-		"you\nlooking for\nsomeone?"
-		"i don't\nthink he\nis here"
+		"you looking for\nsomeone?"
+		"i don't think he is here"
 		"but, well, i\ncan't blame you\nfor looking"
 		"you know, we could pretend i'm the one your searching for"
 		"think\nof it as\nroleplay"
 		"since you seem like you'd be into that sort of thing"
 		"\nhere we go . . ."
-		". . ummm hi . .\nyou found me\n. . ."
-		". . .\n\" :3 \""
+		". . ummm hey . .\nyou found me\n. . ."
+		". . .\nwanna . . .\nkiss and stuff?"
+		"\n. . ."
 		". . .\nnevermind"
     ]
 }
@@ -965,7 +970,7 @@ NPCM_HOLLOWS1 {
         "\nwoah"
 		"how\nare you\nso"
 		"\nbeautiful"
-		"please\nstay\nwith me"
+		"please stay\nwith me"
 	]
 }
 
@@ -976,10 +981,10 @@ NPCM_HOLLOWS2 {
 	text [
 		"\nGRRR!"
         "you\nwon't take\nme!"
-		"i have decided to stay in darkness so be it damn it!"
+		"i have decided to stay in darkness already!"
 		"i don't care\nfor your\nweave of lies!"
-		"leave\nme to\nsink"
-		"this is what\ni want so\nbe gone now!"
+		"just leave me to sink into the void!"
+		"this is what i want so be gone now!"
 	]
 }
 
@@ -1011,7 +1016,7 @@ NPCM_HOLLOWS4 {
 		"\n. . ."
 		"how\ndo i\nknow this?"
 		"well . . . let's just say . . ."
-		"eating a burrito\nat a funeral\nmakes you wiser . . ."
+		"eating a burrito at a funeral . . makes you wiser . . ."
     ]
 }
 
@@ -1023,7 +1028,7 @@ NPCM_HOLLOWS5 {
 		"\n. . ."
 		"\naw crap"
 		"everyone has it\nlike all\nfigured it out"
-		"meanwhile i'm out here struggling just to make a choice"
+		"meanwhile i'm out here struggling just to make one choice"
 		"should i sleep\non my left or\nright side?"
 		"\n. . ."
 		"what about sleeping\non my back?"
@@ -1037,10 +1042,10 @@ NPCM_HOLLOWS6 {
     sound_id NPCBlob
     text [
 		"\n. . ."
-		"we are\nrunning out\nof time"
-		"get\nback\non track"
+		"we are running,\n\nout of time"
+		"get back\n\non track"
+		"she won't,\n\nbe pleased"
 		"\n. . ."
-		"she won't\nhesitate"
     ]
 }
 
@@ -1051,19 +1056,22 @@ NPCM_HOLLOWS7 {
     text [
 		"\n. . ."
 		"it's fine,\nshe can't\nsee us here"
-		"you hid me\nwell down\nhere"
+		"you tried so hard to hide me away"
+		". . and it finally paid off"
 		"\n. . ."
-		"please\nyou have to stop\n. . ."
+		"hahh . . .\njust . ."
+		"you have to stop\n. . ."
 		"just\nforget\nabout him!"
+		"\nplease . . ."
 		"we tried so\nhard to erase\nhis memory!"
 		"he fucked\neverything up!\nremember?"
 		"he totally\nfucked us over!"
+		"\neven now . . ."
 		"\n. . ."
 		"\nfine"
 		"\nfuck it!"
 		"just go along\nand do *whatever*\nshe says . ."
 		"see what good that does for us"
-		"\n. . ."
     ]
 }
 
@@ -1081,8 +1089,12 @@ NPCM_GOLGOTHA1 {
 		"who are we\ngoing to talk\ndown to now?!?"
 		"someone\nhas to pay\nfor this!"
 		"\n. . . you there!"
-		"find\nwhoever\ndid this!"
-		"we will\ngive them\nHELL!"
+		"find whoever\ndid this!"
+		"we will CURSE them with our GHOST powers"
+		"make them unable to SLEEP at night"
+		"and think back on everything they did WRONG"
+		"and also give them INEXPLICABLE headaches now and then"
+		". . that last one's just for fun!"
 	]
 }
 
@@ -1092,7 +1104,7 @@ NPCM_GOLGOTHA2 {
 	sound_id NPCBlob
 	text [
 		"yes!\nyes!\nyes!"
-		"swallow me\nwhole eat\nmy dreams!"
+		"swallow me whole\neat my dreams!"
 		"devour!\ndevour!\ndevour!"
 		"ha ha ha ha\nha ha ha ha\n!!! !! !"
 		". . .\nno!\ndon't leave!"
@@ -1104,7 +1116,7 @@ NPCM_GOLGOTHA3 {
 	movieclip NPCB1
 	sound_id NPCBlob
 	text [
-		"please\nlet me\ngo already"
+		"please\nlet me go\nalready"
 		"i will do\nanything\nyou want!"
 		"\nand i mean *anything*"
 		"\n. . ."
@@ -1118,9 +1130,10 @@ NPCM_GOLGOTHA4 {
     movieclip NPCMD2
     sound_id NPCBlob
     text [
-        "\nholy shit!"
+        "\nholy crap!"
 		"feels kinda like looking out through a big hole in reality!"
 		". . . actually\nthat might be\nexactly what it is"
+		"\n. . ."
 		"let's see how\nlong i can\nstare at it!"
     ]
 }
@@ -1133,8 +1146,8 @@ NPCM_GOLGOTHA5 {
         "\nAAAAAH"
 		"\n. . ."
 		"\noh"
-		"we're\nok\ni think"
-		"we're lucky\nthis thing's\nchained!"
+		"we are\nok\ni think"
+		"we are lucky\nthis thing's\nchained!"
 		"i, for one,\ncan't move\na leg"
 		"and i see\nyour a tad\nbit too slow"
 		"\n. . ."
@@ -1147,7 +1160,7 @@ NPCM_GOLGOTHA5 {
 		"you slide\nout of the way\nlike a badass!"
 		"\n. . ."
 		"\nwhat?"
-		"i've had\ntime to think\nabout this!"
+		"i've had time to think about this!"
     ]
 }
 
@@ -1157,11 +1170,11 @@ NPCM_GOLGOTHA6 {
     sound_id NPCBlob
     text [
 		"\n. . ."
-		"she\nknows what\nyou did"
-		"and she\nwon't forgive\nyou for it"
-		"this is the price,\nshe could have just\nleft you to rot"
+		"she knows,\n\nwhat you did"
+		"and she won't\n\nforgive you for it"
+		"this is the price,\nshe could have just,\nleft you to rot"
 		"\n. . ."
-		"you'd better\nhear what she\nhas to say"
+		"you'd better,\nhear what she\nhas to say"
     ]
 }
 
@@ -1186,7 +1199,7 @@ NPCM_ANGUISH1 {
 		"no\nnot talking\nabout you"
 		"sorry\ncould you\nnot interrupt?"
 		"i'm\nhaving a\nmoment here"
-		"jeez some\nhive minds . .\ni swear to god"
+		"some hive minds . .\ni swear to god"
 	]
 }
 
@@ -1231,15 +1244,14 @@ NPCM_ANGUISH5 {
     movieclip NPCMM5
     sound_id NPCBlob
     text [
-		"\nyou are here"
-		"now you\nonly need\nto find it"
-		"the anomaly\n\nthe source"
-		"\n. . . but know this"
-		"we are\nnot doing\nthis for you"
-		"we will\nfix your\nmistakes"
-		"and for\nthat you\nare needed"
-		"but do not\nconfuse this\nfor fondness"
-		". . be on\nyour\nway then"
+		"\n\nyou are here"
+		"now you,\nonly need,\nto find it"
+		"the mistake . . .\n\nthe source"
+		". . . but know,\nthat we aren't\ndoing this for you"
+		"we will fix\nyour mistakes,\nyes . ."
+		"and for that,\nyou are needed\n. . ."
+		"but do not,\nconfuse this\nfor fondness"
+		". . be on\n\nyour way, then"
     ]
 }
 
@@ -1255,9 +1267,11 @@ NPCM_GLOOM1 {
 		"\n. . ."
 		"is\nthere really\nno stopping you?"
 		"there must be something we can do about this!"
+		"don't we get a say on this?"
+		"don't we get to force you out?"
 		"where's democracy when you need it the most!"
 		"\n. . . what?"
-		"*someone*\nhad to say it"
+		"*someone* had to\nsay it . ."
 	]
 }
 
@@ -1267,8 +1281,8 @@ NPCM_GLOOM2 {
     sound_id NPCBlob
     text [
 		"\"the mother\nis growing\nimpatient\""
-		"\"better not\ndisappoint\nher now\""
-		"\"not like you\nhave any\nother option\""
+		"\"better not\ndisappoint\nher now . .\""
+		"\"not like you\nhave any\nother option!\""
 		"\n. . ."
     ]
 }
@@ -1282,13 +1296,11 @@ NPCM_BLIGHT1 {
 	text [
 		"THE\nEND IS\nNOW!"
 		"OUR\nWISH CAME\nTRUE!"
-		"THERE\nIS HOPE\nAFTERALL!"
-		"EVERYTHING\nHAS MEANING\nAGAIN!"
 		"IT'S\nFINALLY\nHAPPENING!!"
 		"\nGRAHAHAHAHAHA!!"
 		"\n. . ."
-		"ok now that\nwe're done\nwith that"
-		"can i\nhave an\nautograph?"
+		"ok now that\nwe are done\nwith that . ."
+		"can i have\nan autograph?"
 	]
 }
 
@@ -1300,7 +1312,8 @@ NPCM_BLIGHT2 {
 		"can't say\ni didnt see\nthis coming!"
 		"so\nwhats the\nplan now?"
 		"you can\nonly really\nrun forward"
-		"so none of that\nturning back shit\nyou hear me?"
+		"so none of that\nlooking back crap\nyou hear me?"
+		"look at the\nbright side!"
 		"at least\nyou're still\nmostly alive"
 		"things\ncould be\nmuch worse!"
 		"i have\nbeen there\ntrust me"
@@ -1354,12 +1367,12 @@ NPCM_BLIGHT6 {
     movieclip NPCMM2
     sound_id NPCBlob
     text [
-		"it is\nworking we\nare almost there"
-		"this is\nno validation\nbut sheer contract"
-		"you find \"him\"\nand we\n\"let you live\""
+		"it's working,\nwe are almost there"
+		"this isn't validation,\nbut sheer contract"
+		"you find \"him\"\nand then we\n\"let you live\""
 		"now head back, you know this isn't the right way"
-		"you are lucky\nthat we let you\nbe a part of us"
-		"that you are\nof use"
+		"you're lucky\nthat we let you\nbe a part of us"
+		"that you are\n\nof use"
 		". . .\ndon't keep us\nwaiting now"
     ]
 }
@@ -1375,9 +1388,9 @@ NPCM_RUIN1 {
 		"i don't think\nyou'll like what\nhappened here"
 		"uuh\nit wasn't\nour fault"
 		"you see\nthere was this\nlittle guy"
-		"went to\nthe left\nfucked up big time"
+		"went to\nthe left\nscrewed up big time"
 		"i uh suggest\nyou not to\ngo there"
-		"please\nforgive\nus"
+		"please\nforgive us"
 	]
 	
 	#useless
@@ -1386,7 +1399,7 @@ NPCM_RUIN1 {
         "jump\ninside\nthe mother!"
         "she will\nprotect\nyou!"
 		"\n. . ."
-		"\nwait . . . useless?"
+		"\nwait . . . . . ."
     ]
 }
 
@@ -1396,12 +1409,12 @@ NPCM_RUIN2 {
 	sound_id NPCGuppy
 	text [
         "give\nme a\nchance"
-		"second chances\nare all\ni crave"
+		"a second chance!\nit's all i need"
 		"i can change\nthe world\nyes"
 		"bring me\nto life and i\nwill show you"
 		"\n. . . oh"
-		"shit,\ngood\ncostume"
-		"almost had\nme for a\nsecond there"
+		"damn,\ngood costume"
+		"had me going for a second there"
 		"i guess the\nfear and sweat\ngave it away though"
     ]
     
@@ -1440,7 +1453,7 @@ NPCM_RUIN4 {
     text [
         "\nhere it is"
 		"\nthe source"
-		"\ndo what you must"
+		"\n\ndo what you must"
     ]
 }
 
@@ -1456,14 +1469,15 @@ NPCM_NEVERMORE1 {
 		"now we\nhave every\nmissing piece"
 		"we just have\nto put them\ntogether"
 		"\n. . ."
-		"we are\nafraid we cannot\nlet you leave"
-		"we do not\nwant you lurking\nout there"
+		"we are\nafraid we can't\nlet you leave"
+		"we do not\nwant you lurking,\nout there"
 		"not when you\nhave proven to be\nof such high risk"
-		"that goes\nfor all of\nthem too"
-		"the world needs\nhealing, it\ndoes not need *you*"
-		"this is\nnot defeat, you\nsaved the world"
-		"rest easy knowing\nthat it will\nnot remember you"
-		"and it will not\nremember that\nyou betrayed it"
+		". . that goes\nfor all of\nthem too"
+		"the world needs\nhealing, it\ndoesn't need *you*"
+		"you didn't lose\nhere, you\nsaved the world"
+		"rest easy knowing\nthat it won't\nremember you"
+		"and it won't\nremember that\nyou betrayed it"
+		"peace of mind,\nyou want that,\nright?"
     ]
 }
 
@@ -1472,13 +1486,13 @@ NPCM_NEVERMORE2 {
     movieclip NPCMM9
     sound_id NPCBlob
     text [
-		"you\nneed not\nworry"
+		"you need not,\n\nworry"
 		"the healing\nhas already\ncommenced"
 		"it has already\nbeen eons since\nyou came to us"
 		"and there will be\nmillions more before\nour work is done"
 		"there is nothing\nout there for\nyou anymore"
-		"\nthis we know"
-		"you will\ngo back the\nway you came"
+		"this,\n\nwe know"
+		"you will\ngo back the,\nway you came"
     ]
 }
 
@@ -1489,12 +1503,12 @@ NPCM_NEVERMORE3 {
     text [
 		"it\nis not\ntoo late"
 		"you\ncan still\ngo back"
-		"\n. . ."
+		"\n\n. . ."
 		"this\nis your\nfinal warning"
-		"our\nmeans have\ntheir limits"
+		"our means have\n\ntheir limits"
 		"we might\nnot be able\nto stop you"
 		"but we will\ndo what\nwe have to"
-		"this is why\nwe ask you\nto understand"
+		"this is why\nwe ask you\nto cooperate"
     ]
 }
 
@@ -1546,6 +1560,16 @@ NPC_NEVERMORE1 {
     text [
 		"\nwhat?"
 		"everyone has to take a break every now and then"
+		"\n. . ."
+		"did a lot of\nrunning just then"
+		"im currently\ncatching my breath"
+		"all thanks to you\ni dont usually get to rest"
+		"\n. . ."
+		"dont stall\nfor too long"
+		"i should get\nback to it\nsoon . ."
+		"and then\nthere will be\nno turning back"
+		"\n. . ."
+		"see you\non the other side"
     ]
 }
 
@@ -1556,13 +1580,13 @@ NPC_MINDPRISON1 {
     movieclip NPCMM12
     sound_id NPCBlob
     text [
-		"\n. . ."
-		"you cannot\nhide from us"
-		"not even\nin this bubble\nyou have built"
+		"\n\n. . ."
+		"you cannot,\n\nhide from us"
+		"not even,\nin this bubble,\nyou have built"
 		"\nand for what purpose?"
-		"to remind yourself\nof the past?"
-		"this is not what\nwe asked you\nto remember"
-		"\n. . ."
+		"to remind yourself,\n\nof the past?"
+		"this is not what,\nwe asked you,\nto remember"
+		"\n\n. . ."
     ]
 }
 NPC_MINDPRISON2 {
@@ -1570,11 +1594,11 @@ NPC_MINDPRISON2 {
     movieclip NPCMM2
     sound_id NPCBlob
     text [
-		"\n. . ."
-		"the future is\nbuilt on the past"
-		"but now you are\njust building backwards"
-		"do you not\ncare for our goals?"
-		"\n. . ."
+		"\n\n. . ."
+		"the future is\n\nbuilt on the past"
+		"but now you are\n\njust building backwards"
+		"do you not,\n\ncare for our goals?"
+		"\n\n. . ."
     ]
 }
 NPC_MINDPRISON3 {
@@ -1585,10 +1609,10 @@ NPC_MINDPRISON3 {
 		"\n. . ."
 		"headstones\n. . .\nuseless things"
 		"concepts like these\nwe do not\ncare about"
-		"do you wish to\npreserve the dead?"
-		"we find\nyour interests\ntoo selfish"
+		"do you wish to,\n\npreserve the dead?"
+		"we find\nyour interests,\ntoo morbid"
 		"\n. . ."
-		"we need you\nto preserve\nsomething else"
+		"we need you,\nto preserve\nsomething else"
     ]
 }
 NPC_MINDPRISON4 {
@@ -1605,7 +1629,7 @@ NPC_MINDPRISON4 {
 		"\n. . ."
 		"what's so different\nthis time?"
 		"did you\nalready forget?"
-		"this is the first time we're a part of it!"
+		"this is the first time you're a part of it!"
     ]
 }
 NPC_MINDPRISON5 {
@@ -1624,10 +1648,10 @@ NPC_MINDPRISON6 {
     movieclip NPCMM5
     sound_id NPCBlob
     text [
-		"this place\n. . ."
+		"this place,\n\n. . ."
 		"does it not\nremind you\nof something?"
-		"it is that\nwhich we seek"
-		"something sitting\nat the back\nof your brain"
+		"it is that,\n\nwhich we seek"
+		"something sitting,\nat the back\nof your brain"
 		"we have\nlooked for it\nin others"
 		"but they do not\nwant to remember"
 		"nobody wants those\nmemories to resurface"
@@ -1667,9 +1691,9 @@ NPC_MINDPRISON8 {
 		"not like you'd\never care"
 		"\n. . ."
 		"you left it in\na pretty fucked up\nstate you know?"
-		"but it's fine,\nwe're fixing it\nas we speak"
+		"but it's fine,\nwe are fixing it\nas we speak"
 		"\n. . ."
-		"it's still\nnever going to\nbe the same though"
+		"it's still,\nnever going to\nbe the same though"
 		"but that's not something you should worry about"
     ]
 }
@@ -1696,6 +1720,9 @@ NPC_MINDPRISON10 {
 		"just like\nfossils"
 		"\n. . ."
 		"maybe in the future\nsomeone else will\ndiscover your bones!"
+		"\n. . . nah!"
+		"you should've\ntried harder!"
+		"your bones will barely survive a few decades!"
     ]
 }
 NPC_MINDPRISON11 {
@@ -1705,11 +1732,25 @@ NPC_MINDPRISON11 {
     text [
 		"\n. . ."
 		"once you find him\nthere is nothing else\nfor you to do"
-		"other than rest\nand wait for\nthe end of time"
+		"other than rest,\nand wait for\nthe end of time"
 		"\n. . ."
-		"we might\nlet you wander\nif we so please"
-		"in your mind\nthat is"
+		"\nlook . ."
+		"even if you\nfind a way\nout of here"
+		"you can always\ncome back,\nyou know?"
+		"this place\nwill always\nbe with you"
+		"even out there,\nyou can't really\nget away from it"
+		"when you're dying,\nand your eyes are\nfading out . ."
+		"even then,\nwe will resurface"
+		"and envelop you\nall the same"
+		"so, if you're\nreally going to go,\nout there . ."
+		"and you won't look back on us, to finish what you started"
+		"until the very end, when you're on your deathbed . ."
+		"then we will wait, until that time comes"
+		". . . truly,\nwe don't have\na grudge on you"
+		"we are incapable\nof such things"
+		"did you\nforget that?"
 		"\n. . ."
+		"\ngoodbye, then"
     ]
 }
 
