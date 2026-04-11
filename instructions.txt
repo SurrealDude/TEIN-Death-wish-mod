@@ -1,0 +1,39 @@
+The End is Nigh Death Wish is a fanmade mod by SurrealDude
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CREDITS:
+
+◆◇◆◇ TEiN Remake (remade levels, tweaks, and general improvements to the game):
+  → NotWendy
+
+◆◇◆◇ Extra assets used by TEiN Remake:
+  → Meh32
+  → Adenator09
+
+◆◇◆◇ Death wish 10-16 track:
+  → Marcin Jakubek - Chopin Waltz 64 No. 2 Metal Version: https://youtu.be/BwM_E3erpz8?si=2dFM9PnV_NZo23KI
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ WARNING!: You should either backup your savefile or play in a new 100%ed file before doing anything.
+(at least until I upload it to the workshop, bear with me)
+
+If you don't possess an extra 100%ed TEiN savefile, just do the following:
+ 1: Go to "settings.txt" in the game's folder and set "enable_debugconsole" to true.
+ 2: Run the game, choose a new file and skip the intro cutscene.
+ 3: Press Enter to open the console.
+ 4: Type in "collect_everything" and wait until it stops switching between levels.
+ 5: Close the game.
+ (Optional) You can go back to "settings.txt" and set "enable_debugconsole" back to false.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To install the mod:
+ 1: Go to The End is Nigh's folder (you can get to it by right-clicking on it in Steam, going to Properties, "INSTALLED FILES" tab, and then "BROWSE...")
+ 2: Make sure there are no mods installed (there should be no folders named "audio", "data", "shaders", "swfs", "textures", or "tilesets")
+ 3: Copy the contents from the .zip directly to the game's folder, where the executable ("TheEndIsNigh.exe") is located.
+ 4: Launch the game from Steam (If a prompt shows up, choose "Play The End Is Nigh")
+
+Once you're done with the mod, just delete the folders "audio", "data", "shaders", "swfs", "textures", and "tilesets." Make sure you don't miss any of them.
+
+
+

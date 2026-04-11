@@ -1,0 +1,1150 @@
+pages {
+    lightworld {
+        collectibles 259 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+
+    lightworld2 {
+        collectibles 295 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+
+    characters {
+        collectibles 0 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+    
+    darkworld {
+        collectibles 7 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+
+    darkworld2 {
+        collectibles 23 //lives + biglives + carts + bodyparts (used for "percent complete" display)
+    }
+    
+    console {
+        collectibles 0 //lives + biglives + carts + bodyparts
+    }
+	
+	memories {
+        collectibles 75 //617 lives total (565 without cart achievements)
+    }
+}
+
+meta {
+    default_node TheEnd
+    
+    leftwipes [2-0 3-1 4-1hub 4b-1 5b-1 2d-0 3d-1 m2-0 m3-1 m4-1hub m4b-1 m5b-1 m2d-0 m3d-1]
+    rightwipes [1-20 2-19 3-20 4-1hub 4b-15 1d-20 2d-19 10x-9 10x-10 m1-20 m2-19 m3-20 m4-1hub m4b-15 m1d-20 m2d-19 m3dx-15 m7-16 10-3]
+    upwipes [4-1hub 4a-16 4c-1 5c-1 6-1 7-0 4b-15 m4-1hub m4a-16 m4b-15 m4bx-8t m4c-1 m5c-1 m6-1 m7-0]
+    downwipes [4-1hub 4c-15 5a-1 3d-23 4a-1 5bxu-5 6-21 m4-1hub m4c-15 m5a-1 m5bxd-0 m3d-23 m4a-1 m6-21 m7-21 8a-5 10-credits]
+    
+    stevenheads [NPCH1 NPCH2 NPCH3 NPCH4 NPCH-1 NPCMH1 NPCMH2 NPCMH3 NPCMH4]
+    steventhreshtumors [50 100 170 300 0 600 600 600 600]
+    stevenlevels [10x-7 10x-5 10x-3 10x-1 10x-9 m10x-7 m10x-5 m10x-3 m10x-1]
+    
+    mainworlds [1 2 3 4 4a 4b 4c 5a 5b 5c 1d 2d 3d 6 7 8a 8b 8c 9 10 m1 m2 m3 m4 m4a m4b m4c m5a m5b m5c m1d m2d m3d m3dx m6 m7 m8 m9 m10] //if you pause on these worlds, it lets you open the map. otherwise you get "exit area"
+    cartworlds [c1 c2 c3 c4a c4b c4c c5a c5b c5c c6 c8 g0 g1 g2 g3 g4 g5 g6 g9 i1 i2 i3 i4 i5] //launch console automatically when you exit from these worlds
+    
+    headlevel 5a-22
+    bodylevel 5c-21
+    heartlevel 5b-23
+    
+    mute_warpunlock_message [5a-22 5b-23 5c-21 1-1 1d-1 m5a-22 m5b-23 m5c-22 m1-1 m1d-1 8a-1 8c-6x 9-1 10-1 m7-17 m9-0 m10-1] //levels that have a warp point but shouldnt show the "warp point unlocked" message
+    
+    game_over_checkpoints [[1d 1d-1] [2d 2d-0] [3d 3d-1] [6 6-1] [m1d m1d-1] [m2d m2d-0] [m3d m3d-1] [m3dx m3d-1] [m6 m6-1]] //if you game over in world "1d", spawn back to 1d-1, etc. this only matters when loading from a save file, otherwise it uses the last checkpoint you visited
+    iron_cart_entrypoints [i1-1 i2-1 i3-1 i4-1 $i1-1] //used to set the respawn point in an iron cart
+    timed_cart_entrypoints [g5-1] //maybe you want to put a timer on other carts?
+    console_entry_levels [1-1 1d-1 m1-1 m1d-1 m7-17 m9-15 10-1]
+    nevermore_entry 7-0
+    escape_entry 6-21
+    nevermore_tumorthresh 450
+    timer_bypass_levels [6-1]
+    timer_buttonopen_levels [9x-6] //if the timer is open, button4 has its state toggled in these rooms
+    
+    megacart_entry_levels [$c1-1]
+    towercart_entry_levels [$i1-1]
+    cart_lives_overrides [[$c1-1 39]]
+    cart_title_overrides [[$c1-1 "AllStars"] [$i1-1 "Acceptance"]]
+    
+    savefile_completion_counter_max 400 //count of total collectible tumors, carts, body parts (3), cart achievements, map warp points (number of levels in the array below), and endings (2)
+    savefile_completion_warpoints [1-1 2-0 3-1 4a-1 4b-1 4c-1 5a-1 5b-1 5c-1 4-1hub 1d-1 2d-0 3d-1 6-1 6-21 7-0 8a-1 m1-1 m2-0 m3-1 m4a-1 m4b-1 m4c-1 m5a-1 m5b-1 m5c-1 m4-1hub m1d-1 m2d-0 m3d-1 m6-1 m6-21 m7-0 9-1 10-1] //visiting these levels counts for save file completion
+    save_initiallevel c9-0
+    save_lightspawn 1-1
+    save_darkspawn 1d-1
+    save_lightspawnlabel "The End"  //since the game can set your save to these levels without visiting them, their names need to be manually set so they show up on the save
+    save_darkspawnlabel "Anguish"
+}
+
+nodes {
+
+    //The Past
+
+    TheEnd {
+        clipname city
+        entrylevel 1-1
+        page lightworld
+        levelgroups [1 1xu 1xd]
+        unlock_condition always_unlocked
+        
+        up TheFuture
+        right AridFlats
+	down Mother
+    }
+    
+    AridFlats {
+        clipname fields
+        entrylevel 2-0
+        page lightworld
+        levelgroups [2 2xu 2xd]
+        
+        left TheEnd
+        right Overflow
+    }
+    
+    Overflow {
+        clipname bridge
+        entrylevel 3-1
+        page lightworld
+        levelgroups [3 3xu 3xd]
+        
+        left AridFlats
+        right TheSplit
+    }
+    
+    TheSplit {
+        clipname split
+        entrylevel 4-1hub
+        page lightworld
+        levelgroups [4]
+        
+        left Overflow
+        right Retrograde
+        up WallOfSorrow
+        down TheHollows
+    }
+    
+    Retrograde {
+        clipname valley
+        entrylevel 4b-1
+        page lightworld
+        levelgroups [4b 4bx]
+        
+        left TheSplit
+        right TheMachine
+    }
+    
+    TheMachine {
+        clipname complex
+        entrylevel 5b-1
+        page lightworld
+        levelgroups [5b 5bxu 5bxd]
+        
+        left Retrograde
+		up Deathwish
+    }
+    
+    WallOfSorrow {
+        clipname wall
+        entrylevel 4a-1
+        page lightworld
+        levelgroups [4a 4ax]
+        
+        down TheSplit
+        up SSExodus
+        right SSExodus
+    }
+    
+    SSExodus {
+        clipname airship
+        entrylevel 5a-1
+        page lightworld
+        levelgroups [5a 5ax]
+        
+        down WallOfSorrow
+        left WallOfSorrow
+		right Deathwish
+    }
+    
+    TheHollows {
+        clipname pit
+        entrylevel 4c-1
+        page lightworld
+        levelgroups [4c 4cx]
+        
+        up TheSplit
+        down Golgotha
+        right Golgotha
+    }
+    
+    Golgotha {
+        clipname hell
+        entrylevel 5c-1
+        page lightworld
+        levelgroups [5c 5cx]
+        
+        up TheHollows
+        left TheHollows
+    }
+    
+    TheFuture {
+        clipname future
+        entrylevel none
+        page lightworld
+        unlock_condition visited_levels_all
+        unlock_condition_levels [1d-1]
+        down TheEnd
+        select ThePast
+    }
+    
+    StevenHead {
+        clipname steve
+        entrylevel 10x-1
+        page lightworld
+        levelgroups [10x]
+        unlock_condition collected_carts_any
+        unlock_condition_levels [10x-2 10x-4 10x-6 10x-8]    
+    }
+	
+	Deathwish {
+	clipname deathwish
+        entrylevel 8a-1
+        page lightworld
+		levelgroups [8a 8ax 8b 8bx 8c 8cx]
+        unlock_condition visited_levels_any
+        unlock_condition_levels [5a-1 5b-1]
+		
+		left SSExodus
+		down TheMachine
+    }
+    
+    Mother {
+	clipname mother
+        entrylevel none
+        page lightworld
+        unlock_condition visited_levels_all
+        unlock_condition_levels [7-15 10x-9] 
+        
+        up TheEnd
+        select Chash
+    }
+	
+
+    //TheFuture
+    ThePast {
+        clipname past
+        entrylevel none
+        page darkworld
+        unlock_condition visited_levels_all
+        unlock_condition_levels [1d-1]
+        
+        select TheFuture
+        down Anguish
+    }
+    
+    Anguish {
+        clipname darkcity
+        entrylevel 1d-1
+        page darkworld
+        levelgroups [1d 6x]
+        
+        up ThePast
+        right Gloom
+    }
+    
+    Gloom {
+        clipname darkfields
+        entrylevel 2d-0
+        page darkworld
+        levelgroups [2d 7x]
+        
+        left Anguish
+        right Blight
+    }
+    
+    Blight {
+        clipname darkbridge
+        entrylevel 3d-1
+        page darkworld
+        levelgroups [3d 8x]
+        
+        left Gloom
+        down Ruin
+    }
+    
+    Ruin {
+        clipname sewers
+        entrylevel 6-1
+        page darkworld
+        levelgroups [6 9x]
+        
+        up Blight
+        left Acceptance
+    }
+    
+    Acceptance {
+        clipname escape
+        entrylevel 6-21
+        page darkworld
+        levelgroups [9x]
+        
+        right Ruin
+        left Nevermore
+    }
+    
+    Nevermore {
+        clipname superhell
+        entrylevel 7-0
+        page darkworld
+        levelgroups [7]
+        
+        right Acceptance
+    }
+	
+	NevermoreEscape {
+        clipname superduperhell
+        entrylevel 9-1
+        page darkworld
+        levelgroups [9]
+        
+        select NevermoreEscape
+    }
+    
+    //carts
+    
+    Cart1 {
+        clipname c1
+        entrylevel c1-1
+        page console
+        cart_cheevolevel c1-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [1xu-6]    
+      
+        down Cart2
+        up GlitchCart9
+    }
+    
+    Cart2 {
+        clipname c2
+        entrylevel c2-1
+        page console
+        cart_cheevolevel c2-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [2xu-6]   
+       
+        down Cart3
+        up Cart1
+    }
+    
+    Cart3 {
+        clipname c3
+        entrylevel c3-1
+        page console
+        cart_cheevolevel c3-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [3xu-6]   
+      
+        down Cart4c
+        up Cart2
+    }
+    
+    Cart4c {
+        clipname c4c
+        entrylevel c4c-1
+        page console
+        cart_cheevolevel c4c-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [4cx-6]
+    
+        down Cart5c
+        up Cart3
+    }
+    
+    Cart5c {
+        clipname c5c
+        entrylevel c5c-1
+        page console
+        cart_cheevolevel c5c-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [5cx-12]
+      
+        down Cart4a
+        up Cart4c
+    }
+    
+    Cart4a {
+        clipname c4a
+        entrylevel c4a-1
+        page console
+        cart_cheevolevel c4a-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [4ax-5]
+       
+        down Cart5a
+        up Cart5c
+    }
+    
+    Cart5a {
+        clipname c5a
+        entrylevel c5a-1
+        page console
+        cart_cheevolevel c5a-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [5ax-14]
+      
+        down Cart4b
+        up Cart4a
+    }
+    
+    Cart4b {
+        clipname c4b
+        entrylevel c4b-1
+        page console
+        cart_cheevolevel c4b-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [4bx-6]
+      
+        down Cart5b
+        up Cart5a
+    }
+    
+    Cart5b {
+        clipname c5b
+        entrylevel c5b-1
+        page console
+        cart_cheevolevel c5b-all
+        cart_splashframe basiccart
+        unlock_condition collected_carts_all
+        unlock_condition_levels [5bxd-4]
+     
+        down MegaCart
+        up Cart4b
+    }
+    
+    MegaCart {
+        clipname allstars_1
+        entrylevel $c1-1
+        page console
+        cart_cheevolevel c6-all
+        cart_splashframe allstar
+        unlock_condition collected_carts_all
+        unlock_condition_levels [1xu-6 2xu-6 3xu-6 4ax-5 4bx-6 4cx-6 5ax-14 5bxd-4 5cx-12]
+      
+        down IronCart1
+        up Cart5b
+    }
+    
+    IronCart1 {
+        clipname i1
+        entrylevel i1-1
+        page console
+        cart_cheevolevel i1-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [10x-8]
+       
+        down IronCart2
+        up MegaCart
+    }
+    
+    IronCart2 {
+        clipname i2
+        entrylevel i2-1
+        page console
+        cart_cheevolevel i2-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [10x-6]
+     
+        down IronCart3
+        up IronCart1
+    }
+    
+    IronCart3 {
+        clipname i3
+        entrylevel i3-1
+        page console
+        cart_cheevolevel i3-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [10x-4]
+        
+        down IronCart4
+        up IronCart2
+    }
+    
+    IronCart4 {
+        clipname i4
+        entrylevel i4-1
+        page console
+        cart_cheevolevel i4-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [10x-2]
+      
+        down TowerCart
+        up IronCart3
+    }
+    
+    TowerCart {
+        clipname allstars_2
+        entrylevel $i1-1
+        page console
+        cart_cheevolevel i5-all
+        cart_splashframe ironman
+        unlock_condition collected_carts_all
+        unlock_condition_levels [10x-2 10x-4 10x-6 10x-8]
+        
+        down GlitchCart2
+        up IronCart4
+    }
+    
+    GlitchCart2 {
+        clipname g2
+        entrylevel g2-1
+        page console
+        cart_cheevolevel g2-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [6x-6]
+        
+        down GlitchCart3
+        up TowerCart
+    }
+    
+    GlitchCart3 {
+        clipname g3
+        entrylevel g3-1
+        page console
+        cart_cheevolevel g3-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [7x-6]
+        
+        down GlitchCart4
+        up GlitchCart2
+    }
+    
+    GlitchCart4 {
+        clipname g4
+        entrylevel g4-1
+        page console
+        cart_cheevolevel g4-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [8x-6]
+        
+        down GlitchCart5
+        up GlitchCart3
+    }
+    
+    GlitchCart5 {
+        clipname g5
+        entrylevel g0-1
+        page console
+        cart_cheevolevel g0-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [9x-6]
+        
+        down GlitchCart6
+        up GlitchCart4
+    }
+    
+    GlitchCart6 {
+        clipname g6
+        entrylevel g5-1
+        page console
+        cart_cheevolevel g5-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [9x-8]
+        
+        down GlitchCart1
+        up GlitchCart5
+    }
+    
+    GlitchCart1 {
+        clipname g1
+        entrylevel g1-1
+        page console
+        cart_cheevolevel g1-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [1d-0]
+        
+        down GlitchCart9
+        up GlitchCart6
+    }
+    
+    GlitchCart9 {
+        clipname c9
+        entrylevel g9-0
+        page console
+        cart_cheevolevel g9-all
+        cart_splashframe glitch
+        unlock_condition collected_carts_all
+        unlock_condition_levels [7-15]
+        
+        down Cart1
+        up GlitchCart1
+    }
+	
+	//CHARACTER SELECT SCREEN
+	
+	Chash {
+	clipname chash
+        entrylevel none
+        page characters
+        unlock_condition always_unlocked 
+        
+        right ChMother
+        select Mother
+    }
+
+    ChMother {
+	clipname chmother
+        entrylevel none
+        page characters
+        unlock_condition always_unlocked 
+        
+        left Chash
+		down ChTrousers
+        select Mother2
+    }
+	
+	ChmotherScratch {
+        clipname chmotherscratch
+        entrylevel none
+        page characters
+        unlock_condition visited_levels_all
+        unlock_condition_levels [m1d-1] 
+    }
+	
+	ChashName {
+        clipname chashname
+        entrylevel none
+        page characters
+        unlock_condition visited_levels_all
+        unlock_condition_levels [9-1] 
+    }
+
+    //MOTHER CHARACTER
+
+    Mother2 {
+	clipname mother2
+        entrylevel none
+        page lightworld2
+        unlock_condition always_unlocked
+        
+        up TheEnd2
+        select ChMother
+    }
+
+    TheEnd2 {
+        clipname city2
+        entrylevel m1-1
+        page lightworld2
+        levelgroups [m1 1 1xu 1xd]
+        unlock_condition always_unlocked
+        
+        up TheFuture2
+        right AridFlats2
+		down Mother2
+		left MindPrison
+    }
+	
+	MindPrison {
+        clipname mindprison
+        entrylevel m10-1
+        page lightworld2
+        unlock_condition visited_levels_any
+		unlock_condition_levels [m1-0 m1-4 m1xd-1]
+        
+        right TheEnd2
+    }
+    
+    AridFlats2 {
+        clipname fields2
+        entrylevel m2-0
+        page lightworld2
+        levelgroups [m2 2 2xu 2xd]
+        
+        left TheEnd2
+        right Overflow2
+    }
+    
+    Overflow2 {
+        clipname bridge2
+        entrylevel m3-1
+        page lightworld2
+        levelgroups [m3 3 3xu 3xd]
+        
+        left AridFlats2
+        right TheSplit2
+    }
+    
+    TheSplit2 {
+        clipname split2
+        entrylevel m4-1hub
+        page lightworld2
+        levelgroups [m4]
+        
+        left Overflow2
+        right Retrograde2
+        up WallOfSorrow2
+        down TheHollows2
+    }
+    
+    Retrograde2 {
+        clipname valley2
+        entrylevel m4b-1
+        page lightworld2
+        levelgroups [m4b 4b 4bx]
+        
+        left TheSplit2
+        right TheMachine2
+    }
+    
+    TheMachine2 {
+        clipname complex2
+        entrylevel m5b-1
+        page lightworld2
+        levelgroups [m5b 5b 5bxd 5bxu]
+        
+        left Retrograde2
+		up Deathwish2
+    }
+    
+    WallOfSorrow2 {
+        clipname wall2
+        entrylevel m4a-1
+        page lightworld2
+        levelgroups [m4a 4a 4ax]
+        
+        down TheSplit2
+        up SSExodus2
+        right SSExodus2
+    }
+    
+    SSExodus2 {
+        clipname airship2
+        entrylevel m5a-1
+        page lightworld2
+        levelgroups [m5a 5a 5ax]
+        
+        down WallOfSorrow2
+        left WallOfSorrow2
+		right Deathwish2
+    }
+    
+    TheHollows2 {
+        clipname pit2
+        entrylevel m4c-1
+        page lightworld2
+        levelgroups [m4c 4c 4cx]
+        
+        up TheSplit2
+        down Golgotha2
+        right Golgotha2
+    }
+    
+    Golgotha2 {
+        clipname hell2
+        entrylevel m5c-1
+        page lightworld2
+        levelgroups [m5c 5c 5cx]
+        
+        up TheHollows2
+        left TheHollows2
+    }
+    
+    MotherHead {
+        clipname motherhead
+        entrylevel none
+        page lightworld2
+        unlock_condition visited_levels_all
+        unlock_condition_levels [m5a-22]
+    }
+    
+    MotherHeart {
+        clipname motherheart
+        entrylevel none
+        page lightworld2
+        unlock_condition visited_levels_all
+        unlock_condition_levels [m5b-23]
+    }
+    
+    MotherBody {
+        clipname motherbody
+        entrylevel none
+        page lightworld2
+        unlock_condition visited_levels_all
+        unlock_condition_levels [m5c-22]
+    }
+    
+    TheFuture2 {
+        clipname future2
+        entrylevel none
+        page lightworld2
+        unlock_condition visited_levels_all
+        unlock_condition_levels [m5c-22, m5b-23, m5a-22]
+
+        down TheEnd2
+        select ThePast2
+    }
+	
+	StevenHead2 {
+        clipname steve2
+        entrylevel m10x-1
+        page lightworld
+        levelgroups [m10x]
+        unlock_condition collected_carts_any
+        unlock_condition_levels [m10x-2 m10x-4 m10x-6 m10x-8]    
+    }
+	
+	Deathwish2 {
+	clipname deathwish2
+        entrylevel m8-1
+        page lightworld2
+		levelgroups [m8 8a 8ax 8b 8bx 8c 8cx]
+        unlock_condition visited_levels_any
+        unlock_condition_levels [m5a-1 m5b-1]
+		
+		left SSExodus2
+		down TheMachine2
+    }
+
+    //TheFuture
+    ThePast2 {
+        clipname past2
+        entrylevel none
+        page darkworld2
+        unlock_condition visited_levels_all
+        unlock_condition_levels [m5c-22, m5b-23, m5a-22]
+        
+        select TheFuture2
+        down Anguish2
+    }
+    
+    Anguish2 {
+        clipname darkcity2
+        entrylevel m1d-1
+        page darkworld2
+        levelgroups [m1d 1d 6x]
+		unlock_condition always_unlocked
+        
+        up ThePast2
+        right Gloom2
+    }
+    
+    Gloom2 {
+        clipname darkfields2
+        entrylevel m2d-0
+        page darkworld2
+        levelgroups [m2d 2d 7x]
+        
+        left Anguish2
+        right Blight2
+    }
+    
+    Blight2 {
+        clipname darkbridge2
+        entrylevel m3d-1
+        page darkworld2
+        levelgroups [m3d m3dx 3d 8x]
+        
+        left Gloom2
+        down Ruin2
+    }
+    
+    Ruin2 {
+        clipname sewers2
+        entrylevel m6-1
+        page darkworld2
+        levelgroups [m6 6 9x]
+        
+        up Blight2
+        left Acceptance2
+    }
+    
+    Acceptance2 {
+        clipname escape2
+        entrylevel m6-21
+        page darkworld2
+        levelgroups [9mx 9x]
+        
+        right Ruin2
+        left Nevermore2
+    }
+    
+    Nevermore2 {
+        clipname superhell2
+        entrylevel m7-0
+        page darkworld2
+        levelgroups [m7 7]
+        
+		up Forevermore
+        right Acceptance2
+		left CleanSlate
+    }
+	
+	Forevermore {
+        clipname forevermore
+        entrylevel m7-17
+        page darkworld2
+        
+        left Nevermore2
+		down Nevermore2
+    }
+	
+	CleanSlate {
+        clipname cleanslate
+        entrylevel 10-1
+        page darkworld2
+        levelgroups [10]
+        
+        right Nevermore2
+		down Nevermore2
+    }
+	
+	//Memories
+	
+	Memory0 {
+        clipname memory0
+        entrylevel m9-0
+        page memories
+		levelgroups [m1 m1xu m1xd m2xu m3xd m3xu m4ax m4b m4bx m4cx m5ax m5bxd m5bxu m5cx m6 m6x m7x m8x m9 m9x m10x]
+		unlock_condition always_unlocked
+        
+        left Memory15
+        right Memory1
+    }
+	
+	Memory1 {
+        clipname memory1
+        entrylevel m9-1
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m1-0 m1xd-2 m1xu-5 m1xu-7]
+        
+        left Memory0
+		right Memory2
+		up Memory13
+		down Memory4
+    }
+	
+	Memory2 {
+        clipname memory2
+        entrylevel m9-2
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m2xu-2t m2xu-4t m2xu-6 m2xu-9]
+        
+        left Memory1
+		right Memory3
+		up Memory14
+		down Memory5
+    }
+	
+	Memory3 {
+        clipname memory3
+        entrylevel m9-3
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m3xu-0 m3xu-2 m3xu-1t m3xd-4]
+        
+        left Memory2
+		right Memory4
+		up Memory15
+		down Memory6
+    }
+	
+	Memory4 {
+        clipname memory4
+        entrylevel m9-4
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m4ax-1x m4ax-2x m4ax-5 m4ax-8]
+        
+        left Memory3
+		right Memory5
+		up Memory1
+		down Memory7
+    }
+	
+	Memory5 {
+        clipname memory5
+        entrylevel m9-5
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m4bx-1t m4bx-2t m4bx-3t m4b-15]
+        
+        left Memory4
+		right Memory6
+		up Memory2
+		down Memory8
+    }
+	
+	Memory6 {
+        clipname memory6
+        entrylevel m9-6
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m4cx-3 m4cx-11 m4cx-13 m4cx-9]
+        
+        left Memory5
+		right Memory7
+		up Memory3
+		down Memory9
+    }
+	
+	Memory7 {
+        clipname memory7
+        entrylevel m9-7
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m5ax-1 m5ax-7 m5ax-12 m5ax-15]
+        
+        left Memory6
+		right Memory8
+		up Memory4
+		down Memory10
+    }
+	
+	Memory8 {
+        clipname memory8
+        entrylevel m9-8
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m5bxu-5 m5bxd-2 m5bxd-8 m5bxu-8t]
+        
+        left Memory7
+		right Memory9
+		up Memory5
+		down Memory11
+    }
+	
+	Memory9 {
+        clipname memory9
+        entrylevel m9-9
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m5cx-8t m5cx-8 m5cx-12 m5cx-13]
+        
+        left Memory8
+		right Memory10
+		up Memory6
+		down Memory12
+    }
+	
+	Memory10 {
+        clipname memory10
+        entrylevel m9-10
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m6x-7 m6x-5 m6x-6 m6x-8]
+        
+        left Memory9
+		right Memory11
+		up Memory7
+		down Memory13
+    }
+	
+	Memory11 {
+        clipname memory11
+        entrylevel m9-11
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m7x-1 m7x-3 m7x-6 m7x-7]
+        
+        left Memory10
+		right Memory12
+		up Memory8
+		down Memory14
+    }
+	
+	Memory12 {
+        clipname memory12
+        entrylevel m9-12
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m8x-7 m8x-7t m8x-8 m8x-9]
+        
+        left Memory11
+		right Memory13
+		up Memory9
+		down Memory15
+    }
+	
+	Memory13 {
+        clipname memory13
+        entrylevel m9-13
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m9x-7 m9x-1 m9x-9 m6-20]
+        
+        left Memory12
+		right Memory14
+		up Memory10
+		down Memory1
+    }
+	
+	Memory14 {
+        clipname memory14
+        entrylevel m9-14
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m10x-9 m10x-10 m10x-11 m10x-12]
+        
+        left Memory13
+		right Memory15
+		up Memory11
+		down Memory2
+    }
+	
+	Memory15 {
+        clipname memory15
+        entrylevel m9-15
+        page memories
+		unlock_condition collected_carts_all
+		unlock_condition_levels [m10x-8 m10x-6 m10x-4 m10x-2]
+        
+        left Memory14
+		right Memory0
+		up Memory12
+		down Memory3
+    }
+	
+	MemoriesLight {
+        clipname memtracker1
+        page lightworld2
+        levelgroups [m1 m1xu m1xd m2xu m3xd m3xu m4ax m4b m4bx m4cx m5ax m5bxd m5bxu m5cx m10x]
+        unlock_condition visited_levels_any
+		unlock_condition_levels [m1-0 m1-4 m1xd-1]
+    }
+	
+	MemoriesDark {
+        clipname memtracker2
+        page darkworld2
+        levelgroups [m6 m6x m7x m8x m9 m9x m10x]
+        unlock_condition always_unlocked
+    }
+	
+	ChTrousers {
+		clipname chtrousers
+        entrylevel m9-16
+        page characters
+		
+		unlock_condition visited_levels_all
+		unlock_condition_levels [m9-15x] 
+		
+		up ChMother
+		right ChMother
+    }
+}
