@@ -28,7 +28,7 @@ NPC_DEATHWISH2 {
 }
 NPC_DEATHWISH3 {
 #crystal skull
-    movieclip NPC20
+    movieclip NPC0
     sound_id NPCSkull
     text [
         "\nhey!"
@@ -43,7 +43,7 @@ NPC_DEATHWISH3 {
 }
 NPC_DEATHWISH4 {
 #warning ghost
-    movieclip NPCMG1
+    movieclip NPC1
     sound_id NPCGhost
     text [
         "\n. . ."
@@ -72,7 +72,7 @@ NPCM_DEATHWISH1 {
 }
 NPCM_DEATHWISH2 {
 #finger blob
-    movieclip NPCMB1
+    movieclip NPC1
     sound_id NPCBlob
     text [
         "\n. . ."
@@ -90,7 +90,7 @@ NPCM_DEATHWISH2 {
 
 NPCH-1 {
 #basic sideways
-    movieclip NPCH-1
+    movieclip NPCH1
     sound_id NPCSteven
     text [
         "\nso . ."
@@ -118,7 +118,7 @@ NPCH-1 {
 
 NPCH-1x {
 #basic sideways
-    movieclip NPCH-1x
+    movieclip NPC1
     sound_id NPCSteven
     text [
         "\nthere"
@@ -303,7 +303,7 @@ NPCM_THEEND6 {
 
 NPCM_THEEND7 {
 #pity manip
-    movieclip NPCMB2
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"what is . .\nhappening . .\nto me?!"
@@ -425,7 +425,7 @@ NPCM_ARIDFLATS6 {
 
 NPCM_ARIDFLATS7 {
 #warp zone ghost
-    movieclip NPCMG2
+    movieclip NPC1
     sound_id NPCGhost
     text [
         "\nheh heh"
@@ -441,7 +441,7 @@ NPCM_ARIDFLATS7 {
 
 NPCM_ARIDFLATS8 {
 #guilt manip blob
-    movieclip NPCMB3
+    movieclip NPC1
     sound_id NPCBlob
     text [
         "\n. . ."
@@ -457,7 +457,7 @@ NPCM_ARIDFLATS8 {
 
 NPCM_ARIDFLATS9 {
 #glitch skel 1
-    movieclip NPCM1
+    movieclip NPC1
     sound_id NPCSkull
     text [
         "\nwoah!"
@@ -475,7 +475,7 @@ NPCM_ARIDFLATS9 {
 
 NPCM_ARIDFLATS10 {
 #faulted mother
-    movieclip NPCMM1
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"this place\n\nis faulted"
@@ -592,7 +592,7 @@ NPCM_OVERFLOW7 {
 
 NPCM_OVERFLOW8 {
 #gross ghost
-    movieclip NPCMG3
+    movieclip NPC1
     sound_id NPCGhost
     text [
         "\nwell well well"
@@ -627,7 +627,7 @@ NPCM_OVERFLOW8 {
 
 NPCM_OVERFLOW9 {
 #most normal tein npc
-    movieclip NPCMB4
+    movieclip NPC1
     sound_id NPCBlob
     text [
         "\nwater . . ."
@@ -643,7 +643,7 @@ NPCM_OVERFLOW9 {
 
 NPCM_OVERFLOW10 {
 #glitch skel 2
-    movieclip NPCM2
+    movieclip NPC1
     sound_id NPCSkull
     text [
 		"i see you\nthere flatulating\naround everywhere"
@@ -660,7 +660,7 @@ NPCM_OVERFLOW10 {
 
 NPCM_OVERFLOW11 {
 #reminder mother
-    movieclip NPCMM2
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"it is imperious,\nthat you\nfix this"
@@ -784,7 +784,7 @@ NPCM_EXODUS3 {
 
 NPCM_EXODUS4 {
 #hidden ghost
-    movieclip NPCMG4
+    movieclip NPC1
     sound_id NPCGhost
     text [
         "\n. . ."
@@ -849,7 +849,7 @@ NPCM_RETROGRADE3 {
 
 NPCM_RETROGRADE4 {
 #small hater blob
-	movieclip NPCMB5
+	movieclip NPC1
 	sound_id NPCBlob
 	text [
 		"\n'pah!"
@@ -866,7 +866,7 @@ NPCM_RETROGRADE4 {
 
 NPCM_RETROGRADE5 {
 #loner blob
-	movieclip NPCMB6
+	movieclip NPC1
 	sound_id NPCBlob
 	text [
 		"silence\n. . ."
@@ -941,7 +941,7 @@ NPCM_MACHINE4 {
 
 NPCM_MACHINE5 {
 #concerned ghost
-    movieclip NPCMG5
+    movieclip NPC1
     sound_id NPCGhost
     text [
         "\nhmm . . ."
@@ -1002,7 +1002,7 @@ NPCM_HOLLOWS3 {
 
 NPCM_HOLLOWS4 {
 #glitch skel 3
-    movieclip NPCM3
+    movieclip NPC1
     sound_id NPCSkull
     text [
         "\nheh"
@@ -1022,7 +1022,7 @@ NPCM_HOLLOWS4 {
 
 NPCM_HOLLOWS5 {
 #indecisive blob
-    movieclip NPCMD1
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n. . ."
@@ -1038,7 +1038,7 @@ NPCM_HOLLOWS5 {
 }
 NPCM_HOLLOWS6 {
 #pressuring blob
-    movieclip NPCMM3
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n. . ."
@@ -1051,7 +1051,7 @@ NPCM_HOLLOWS6 {
 
 NPCM_HOLLOWS7 {
 #ash
-    movieclip NPCAsh
+    movieclip NPC1
     sound_id LandHard
     text [
 		"\n. . ."
@@ -1127,7 +1127,7 @@ NPCM_GOLGOTHA3 {
 
 NPCM_GOLGOTHA4 {
 #breaking blob
-    movieclip NPCMD2
+    movieclip NPC1
     sound_id NPCBlob
     text [
         "\nholy crap!"
@@ -1140,7 +1140,7 @@ NPCM_GOLGOTHA4 {
 
 NPCM_GOLGOTHA5 {
 #glitch skel 4
-    movieclip NPCM4
+    movieclip NPC1
     sound_id NPCSkull
     text [
         "\nAAAAAH"
@@ -1166,7 +1166,7 @@ NPCM_GOLGOTHA5 {
 
 NPCM_GOLGOTHA6 {
 #just straight up manip
-    movieclip NPCMM4
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n. . ."
@@ -1241,7 +1241,7 @@ NPCM_ANGUISH4 {
 
 NPCM_ANGUISH5 {
 #mother incarnate
-    movieclip NPCMM5
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n\nyou are here"
@@ -1259,7 +1259,7 @@ NPCM_ANGUISH5 {
 
 NPCM_GLOOM1 {
 #remake npc gloom
-	movieclip NPCES_X1
+	movieclip NPC1
 	sound_id NPCBlob
 	text [
 		"\n. . ."
@@ -1277,7 +1277,7 @@ NPCM_GLOOM1 {
 
 NPCM_GLOOM2 {
 #no escape
-    movieclip NPCMM6
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\"the mother\nis growing\nimpatient\""
@@ -1347,7 +1347,7 @@ NPCM_BLIGHT4 {
 
 NPCM_BLIGHT5 {
 #coolest blob
-    movieclip NPCMD3
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\nhi!"
@@ -1364,7 +1364,7 @@ NPCM_BLIGHT5 {
 
 NPCM_BLIGHT6 {
 #wrong way mother
-    movieclip NPCMM2
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"it's working,\nwe are almost there"
@@ -1448,7 +1448,7 @@ NPCM_RUIN3 {
 
 NPCM_RUIN4 {
 #anomaly mother
-    movieclip NPCMM7
+    movieclip NPC1
     sound_id NPCBlob
     text [
         "\nhere it is"
@@ -1461,7 +1461,7 @@ NPCM_RUIN4 {
 
 NPCM_NEVERMORE1 {
 #mother incarnate
-    movieclip NPCMM8
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\nit is done"
@@ -1483,7 +1483,7 @@ NPCM_NEVERMORE1 {
 
 NPCM_NEVERMORE2 {
 #mother incarnate
-    movieclip NPCMM9
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"you need not,\n\nworry"
@@ -1498,7 +1498,7 @@ NPCM_NEVERMORE2 {
 
 NPCM_NEVERMORE3 {
 #mother incarnate
-    movieclip NPCMM10
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"it\nis not\ntoo late"
@@ -1514,7 +1514,7 @@ NPCM_NEVERMORE3 {
 
 NPCM_NEVERMORE4 {
 #actual gibberish
-    movieclip NPCMM11
+    movieclip NPC1
     sound_id BigSlugCharge
     text [
 		"welp"
@@ -1525,7 +1525,7 @@ NPCM_NEVERMORE4 {
 
 NPCM_NEVERMORE5 {
 #fake gish
-    movieclip NPCMX2
+    movieclip NPC1
     sound_id NPCGish
     text [
 		"\nhey, you!"
@@ -1540,7 +1540,7 @@ NPCM_NEVERMORE5 {
 
 NPCM_NEVERMORE6 {
 #all my homies hate monopoly
-    movieclip NPCMX3
+    movieclip NPC1
     sound_id NPCAether
     text [
 		"\ncome on, bud!"
@@ -1555,7 +1555,7 @@ NPCM_NEVERMORE6 {
 
 NPC_NEVERMORE1 {
 #time fcuk
-    movieclip NPCMX1
+    movieclip NPC1
     sound_id NPCStevenCameo
     text [
 		"\nwhat?"
@@ -1577,7 +1577,7 @@ NPC_NEVERMORE1 {
 
 NPC_MINDPRISON1 {
 #arid flats
-    movieclip NPCMM12
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n\n. . ."
@@ -1591,7 +1591,7 @@ NPC_MINDPRISON1 {
 }
 NPC_MINDPRISON2 {
 #overflow
-    movieclip NPCMM2
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n\n. . ."
@@ -1603,7 +1603,7 @@ NPC_MINDPRISON2 {
 }
 NPC_MINDPRISON3 {
 #wall of sorrow
-    movieclip NPCMM13
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n. . ."
@@ -1617,7 +1617,7 @@ NPC_MINDPRISON3 {
 }
 NPC_MINDPRISON4 {
 #retrograde
-    movieclip NPCMM14
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n. . ."
@@ -1634,7 +1634,7 @@ NPC_MINDPRISON4 {
 }
 NPC_MINDPRISON5 {
 #hollows
-    movieclip NPCMM15
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\nDARKNESS"
@@ -1645,7 +1645,7 @@ NPC_MINDPRISON5 {
 }
 NPC_MINDPRISON6 {
 #ss exodus
-    movieclip NPCMM5
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"this place,\n\n. . ."
@@ -1668,7 +1668,7 @@ NPC_MINDPRISON6 {
 }
 NPC_MINDPRISON7 {
 #machine
-    movieclip NPCMM16
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"you built some\nimpressive things\nyou lot"
@@ -1683,7 +1683,7 @@ NPC_MINDPRISON7 {
 }
 NPC_MINDPRISON8 {
 #anguish
-    movieclip NPCMM17
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"what do you\nthink is going\non out there?"
@@ -1699,7 +1699,7 @@ NPC_MINDPRISON8 {
 }
 NPC_MINDPRISON9 {
 #gloom
-    movieclip NPCMM9
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"no matter\nwhat happens"
@@ -1713,7 +1713,7 @@ NPC_MINDPRISON9 {
 }
 NPC_MINDPRISON10 {
 #blight
-    movieclip NPCMM8
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"the past\nalways resurfaces"
@@ -1727,7 +1727,7 @@ NPC_MINDPRISON10 {
 }
 NPC_MINDPRISON11 {
 #nevermore
-    movieclip NPCMM10
+    movieclip NPC1
     sound_id NPCBlob
     text [
 		"\n. . ."
@@ -1758,7 +1758,7 @@ NPC_MINDPRISON11 {
 
 NPC_CONSOLE1 {
 #console
-    movieclip CartConsoleDeco
+    movieclip NPC1
     sound_id NPCStevenCameo
     text [
 		"\nyour fucked !"
@@ -1767,7 +1767,7 @@ NPC_CONSOLE1 {
 
 NPC_CONSOLE2 {
 #console
-    movieclip CartConsoleDeco2
+    movieclip NPC1
     sound_id NPCStevenCameo
     text [
 		"\nyour super fucked !"
@@ -1776,7 +1776,7 @@ NPC_CONSOLE2 {
 
 NPC_CONSOLE3 {
 #console
-    movieclip CartConsoleDeco3
+    movieclip NPC1
     sound_id NPCStevenCameo
     text [
 		"\nyour mega fucked !"
@@ -1785,7 +1785,7 @@ NPC_CONSOLE3 {
 
 NPC_NOTE {
 #notes
-    movieclip NPCNote
+    movieclip NPC1
     sound_id LandCloudSoft
     text [
         "\n"
@@ -1794,7 +1794,7 @@ NPC_NOTE {
 
 NPC_NOTE_TROUSERS {
 #notes
-    movieclip NPCNote2
+    movieclip NPC1
     sound_id LandCloudSoft
     text [
 		"\n. . ."
@@ -1812,7 +1812,7 @@ NPC_NOTE_TROUSERS {
 
 NPC_FRIEND1 {
 #Friend
-    movieclip NPCFriend
+    movieclip NPC1
     sound_id NPCStevenCameo
     text [
 		""

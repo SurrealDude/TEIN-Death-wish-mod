@@ -1,9 +1,9 @@
 8a {
     area_name "Death Wish"
     area_label_frame 17
-    tile_graphics Tilefallforest
+    tile_graphics Tilefield
     overlay_graphics Overlaysfield
-    background_graphics autumnbg
+    background_graphics bgsolid
     fx_shader ripples
 	fx_shader_mid living
 	midfx_graphics ShadeBox
@@ -24,9 +24,7 @@
     ambience cemetery.ogg
 
 	art_alts [
-        [OrbSmall, coldblob]
         [ChainLink2, None]
-        [OrbLarge, coldbloblorg]
 		[MiniFly, MiniWisp]
     ]
 
@@ -35,9 +33,9 @@
 8ax {
     area_name "Death Wish"
     area_label_frame 17
-    tile_graphics Tilefallforest
+    tile_graphics Tilefield
     overlay_graphics Overlaysfield
-    background_graphics autumnbg
+    background_graphics bgsolid
     fx_shader ripples
 	fx_shader_mid living
 	midfx_graphics ShadeBox
@@ -59,9 +57,7 @@
     stop_previous_music false
 
 	art_alts [
-        [OrbSmall, coldblob]
         [ChainLink2, None]
-        [OrbLarge, coldbloblorg]
 		[MiniFly, MiniWisp]
     ]
 
@@ -94,10 +90,6 @@
 	music [dante_intro.ogg, dante_loop.ogg]
     ambience crystal.ogg
 	ambience_volume 0.4
-
-	art_alts [
-        [GlowShroom, GlowShard][GlowShroomSmall, GlowShard2][Sentry, SentryCrystal][Floater, FloaterCrystal]
-    ]
 	
 	t2 {
 		music_volume 0.6
@@ -105,10 +97,6 @@
 		tile_particle_3 spark2
 		global_particle_1 cold
 		global_particle_2 mist2
-		
-		art_alts [
-			[MiniFly, MiniWisp][OrbSmall, SolidTile][GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall]
-		]
 	}
 }
 
@@ -138,18 +126,14 @@
     ambience crystal.ogg
 	ambience_volume 0.4
 	stop_previous_music false
-
-	art_alts [
-        [GlowShroom, GlowShard][GlowShroomSmall, GlowShard2][Sentry, SentryCrystal][Floater, FloaterCrystal]
-    ]
 }
 
 8c {
     area_name "Death Wish"
     area_label_frame 17
-    tile_graphics Tilenailbed
+    tile_graphics Tilefield
     overlay_graphics Overlaystox2
-    background_graphics nailbedbg
+    background_graphics bgsolid
     fx_shader sludgeripples
     palette 59
 
@@ -158,9 +142,6 @@
 	tile_particle_3 spark2
     global_particle_1 cold
     global_particle_2 mist2
-    decoration_1 ChainDeco
-	decoration_2 TileCavesDeco1
-	decoration_3 TileCavesDeco2
     
     fx_shader_mid lighting_nailbed
     midfx_graphics ShadeBox
@@ -177,7 +158,7 @@
     music [nailbed_intro.ogg, nailbed_loop.ogg]
     ambience tilts.ogg
 	art_alts [
-        [MiniFly, MiniWisp][OrbSmall, SolidTile][GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall][SpitterX, SpitterXSquare]
+        [MiniFly, MiniWisp]
 	]
 
 	t1 {
@@ -192,9 +173,9 @@
 8cx {
     area_name "Death Wish"
     area_label_frame 17
-    tile_graphics Tilenailbed
+    tile_graphics Tilefield
     overlay_graphics Overlaystox2
-    background_graphics nailbedbg
+    background_graphics bgsolid
     fx_shader sludgeripples
     palette 59
 
@@ -203,9 +184,6 @@
 	tile_particle_3 spark2
     global_particle_1 cold
     global_particle_2 mist2
-    decoration_1 ChainDeco
-	decoration_2 TileCavesDeco1
-	decoration_3 TileCavesDeco2
     
     fx_shader_mid lighting_nailbed
     midfx_graphics ShadeBox
@@ -219,7 +197,7 @@
     ambience tilts.ogg
     stop_previous_music false
 	art_alts [
-        [MiniFly, MiniWisp][OrbSmall, SolidTile][GlowShroom, GlowBulb][GlowShroomSmall, GlowBulbSmall][SpitterX, SpitterXSquare]
+        [MiniFly, MiniWisp]
 	]
 }
 
@@ -247,8 +225,6 @@
     global_particle_2 bgrain
     global_particle_3 lightning
     
-    decoration_1 BallWithNoAsh
-	decoration_3 MotherCutscene2
 	do_tilt true
 	
 	npc_1 NPC_NEVERMORE1
@@ -263,7 +239,6 @@
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, OrbLarge2]
         [AimSpitter, AimSpitter2]
-		[Floater, Tendril]
     ]
 	
 	1 {
@@ -291,9 +266,6 @@
 	tile_particle_5 splash
 	global_particle_1 fgrain
 	global_particle_2 bgrain
-	
-	decoration_2 MotherCredits
-	decoration_3 MotherCutscene3
 	
 	npc_3 NPC_CONSOLE3
 	
@@ -346,7 +318,6 @@ m1 {
 	global_particle_1 fgrain
 	global_particle_2 bgrain
 	global_particle_3 distortrain
-	decoration_2 TileCavesDeco2
 	
 	npc_1 NPCM_THEEND1
 	npc_2 NPCM_THEEND2
@@ -359,7 +330,6 @@ m1 {
 	
 	art_alts [
 		[Floater, Ghost]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	0 {
@@ -375,12 +345,6 @@ m1 {
 	}
 	2 {
 		decoration_1 Decoration1
-	}
-	3 {
-		decoration_1 Decoration4Mother
-	}
-	4 {
-		decoration_1 Decoration4Mother2
 	}
 	5 {
 		decoration_1 inst10
@@ -411,10 +375,6 @@ m1xd {
 	ambience wet_caves.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 	
 	1 {
 		ambience rain.ogg
@@ -447,18 +407,14 @@ m1xu {
 	ambience rain.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 }
 
 m2 {
 	area_name "Arid Flats?"
 	area_label_frame 2
-	tile_graphics Tilegraveyard
+	tile_graphics Tilefield
 	overlay_graphics Overlaysfield
-	background_graphics ch2bg_b
+	background_graphics ch2bg
 	palette 2 
 	
 	fx_shader ripples
@@ -473,8 +429,6 @@ m2 {
 	global_particle_1 leaves
 	global_particle_2 cloudwind_light
 	decoration_1 Decoration9
-	decoration_2 TileToxDeco1
-	decoration_3 TileCavesDeco1
 	
 	npc_1 NPCM_ARIDFLATS1
 	npc_2 NPCM_ARIDFLATS2
@@ -485,18 +439,11 @@ m2 {
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	4 {
 		npc_1 NPCMH1
 	}
 	7 {
 		npc_1 NPCM_ARIDFLATS9
-	}
-	11 {
-		decoration_1 LockTileDeco2
 	}
 	12 {
 		sfx_file mutebuttons.txt
@@ -506,7 +453,7 @@ m2 {
 m2xd {
 	area_name "Arid Flats?"
 	area_label_frame 2
-	tile_graphics Tilegraveyard
+	tile_graphics Tilefield
 	overlay_graphics Overlaysfield
 	background_graphics ch2bg
 	foreground_graphics none
@@ -520,7 +467,6 @@ m2xd {
 	tile_particle_2 drip
 	tile_particle_3 bubbles
 	tile_particle_4 shardglow_up
-	decoration_2 TileToxDeco1
 	
 	npc_1 NPCM_ARIDFLATS6
 	
@@ -531,21 +477,17 @@ m2xd {
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	4 {
-		tile_graphics Tileunderground
+		tile_graphics Tilecaves
 	}
 }
 
 m2xu {
 	area_name "Arid Flats?"
 	area_label_frame 2
-	tile_graphics Tilegraveyard
+	tile_graphics Tilefield
 	overlay_graphics Overlaysfield
-	background_graphics ch2bg_b
+	background_graphics ch2bg
 	foreground_graphics none
 	palette 2 
 	
@@ -558,7 +500,6 @@ m2xu {
 	tile_particle_3 shardglow_left
 	global_particle_1 leaves
 	global_particle_2 cloudwind
-	decoration_2 TileToxDeco1
 	
 	npc_1 NPCM_ARIDFLATS4
 	npc_2 NPCM_ARIDFLATS5
@@ -570,26 +511,18 @@ m2xu {
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-
 	2t {
 		npc_1 NPCM_ARIDFLATS7
 	}
 	6 {
 		npc_1 NPCM_ARIDFLATS10
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
-		]
 	}
 }
 
 m3 {
 	area_name "Overflow?"
 	area_label_frame 3
-	tile_graphics Tileneo
+	tile_graphics Tilecaves
 	overlay_graphics Overlayscaves
 	background_graphics ch3bg
 	foreground_graphics None
@@ -605,8 +538,6 @@ m3 {
 	tile_particle_4 surface_splash
 	tile_particle_5 drip
 	decoration_1 Decoration4
-	decoration_2 TileFieldDeco1
-	decoration_3 TileFieldDeco2
 	
 	npc_1 NPCM_OVERFLOW1
 	npc_2 NPCM_OVERFLOW2
@@ -617,10 +548,6 @@ m3 {
 	ambience_volume 1.2
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2]
-	]
 	
 	1 {
 		tile_particle_4 shardglow_down
@@ -685,10 +612,6 @@ m3 {
 		ambience_volume 1
 		
 		npc_1 NPCM_OVERFLOW11
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
-		]
 	}
 	15 { 
 		fx_shader sludgeripples 
@@ -697,9 +620,6 @@ m3 {
 		ambience ruins.ogg
 		ambience_volume 1
 		sfx_file mutebuttons.txt
-		art_alts [
-			[Player, Player2][SkullFloater, Nothing]
-		]
 	}
 	16 { 
 		fx_shader sludgeripples 
@@ -748,7 +668,7 @@ m3 {
 m3xd {
 	area_name "Overflow?"
 	area_label_frame 3
-	tile_graphics Tileneo
+	tile_graphics Tilecaves
 	overlay_graphics Overlayscaves
 	background_graphics ch3bg
 	foreground_graphics None
@@ -773,10 +693,6 @@ m3xd {
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	1 {
 		ambience wet_caves.ogg
 	}
@@ -797,7 +713,7 @@ m3xd {
 m3xu {
 	area_name "Overflow?"
 	area_label_frame 3
-	tile_graphics Tileneo
+	tile_graphics Tilecaves
 	overlay_graphics Overlayscaves
 	background_graphics ch3bg
 	foreground_graphics None
@@ -822,10 +738,6 @@ m3xu {
 	npc_3 NPCM_OVERFLOW8
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 
 	0 {
 		npc_1 NPCM_OVERFLOW9
@@ -878,11 +790,6 @@ m4 {
 	ambience_volume 0.9
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[GlowShroomSmall, TileCavesDeco2]
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 }
 
 #PATH A
@@ -909,7 +816,6 @@ m4a {
 	global_particle_1 wind2
 	global_particle_2 wind
 	global_particle_3 cloudwind
-	decoration_2 TileCavesDeco2
 	
 	music [hungarian_rhapsody_intro.ogg, hungarian_rhapsody_loop.ogg]
 	ambience wind.ogg
@@ -918,7 +824,6 @@ m4a {
 	
 	art_alts [
 		[Floater, Ghost]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 
 	3 {
@@ -952,7 +857,6 @@ m4ax {
 	global_particle_1 wind2
 	global_particle_2 wind
 	global_particle_3 cloudwind
-	decoration_2 TileCavesDeco2
 	
 	npc_1 NPCM_WALL1
 	npc_2 NPCM_WALL2
@@ -965,7 +869,6 @@ m4ax {
 	
 	art_alts [
 		[Floater, Ghost]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 }
 
@@ -984,7 +887,6 @@ m5a {
 	tile_particle_5 drip
 	decoration_1 Deco10
 	decoration_2 Deco11
-	decoration_3 LockTileDeco2
 	
 	npc_1 NPCMH3
 	
@@ -994,10 +896,6 @@ m5a {
 	
 	do_wobble true
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 	
 	1 {
 		global_particle_1 cloudwind_heavy
@@ -1041,9 +939,6 @@ m5a {
 	22 {
 		global_particle_1 cloudwind_heavy
 		npc_1 NPC_NOTE
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory][SpeechBubble, SpeechBubbledud]
-		]
 	}
 }
 
@@ -1074,10 +969,6 @@ m5ax {
 	do_wobble true
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	5 {
 		global_particle_1 none
 	}
@@ -1097,7 +988,7 @@ m5ax {
 m4b {
 	area_name "Retrograde?"
 	area_label_frame 7
-	tile_graphics Tilegraveyard
+	tile_graphics Tilefield
 	overlay_graphics Overlayshell
 	background_graphics field2bg
 	palette 7
@@ -1114,8 +1005,6 @@ m4b {
 	tile_particle_5 debris_slow
 	global_particle_1 rocks
 	decoration_1 CreepingMass
-	decoration_2 TileToxDeco1
-	decoration_3 TileComplexDeco2
 	
 	npc_1 NPCM_RETROGRADE1
 	
@@ -1127,13 +1016,10 @@ m4b {
 	art_alts [
 		[AimSpitter,eyeshooter]
 		[Bullet,eyebullet][MiniFrog, MiniFlea]
-		[GlowShroom, LockTileDeco]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
 		overlay_graphics Overlaystox
-		decoration_1 inst11mother
 	}
 	2 {
 		overlay_graphics Overlaystox
@@ -1142,32 +1028,32 @@ m4b {
 		overlay_graphics Overlaystox
 	}
 	5 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 	6 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 	8 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 	10 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 	11 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 	12 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 	13 {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 	}
 }
 
 m4bx {
 	area_name "Retrograde?"
 	area_label_frame 7
-	tile_graphics Tilegraveyard
+	tile_graphics Tilefield
 	overlay_graphics Overlayshell
 	background_graphics field2bg
 	palette 7
@@ -1184,8 +1070,6 @@ m4bx {
 	tile_particle_5 drip
 	global_particle_1 rocks
 	decoration_1 CreepingMass
-	decoration_2 TileToxDeco1
-	decoration_3 TileComplexDeco2
 	
 	npc_1 NPCM_RETROGRADE2
 	npc_2 NPCM_RETROGRADE3
@@ -1200,7 +1084,6 @@ m4bx {
 	art_alts [
 		[AimSpitter,eyeshooter]
 		[Bullet,eyebullet]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1t {
@@ -1219,63 +1102,55 @@ m4bx {
 		ambience wind.ogg
 	}
 	3 {
-		tile_graphics Tileunderground
+		tile_graphics Tilecaves
 	}
 	3t {
-		tile_graphics Tileovergrown
+		tile_graphics Tilefield
 		music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
 		ambience wind.ogg
 		ambience_volume 0.9
 	}
 	4 {
-		tile_graphics Tileunderground
+		tile_graphics Tilecaves
 	}
 	4t {
-		tile_graphics Tileunderground
+		tile_graphics Tilecaves
 	}
 	5 {
-		tile_graphics Tileunderground
+		tile_graphics Tilecaves
 	}
 	6 {
-		tile_graphics Tileunderground
+		tile_graphics Tilecaves
 	}
 	7t {
 		area_label_frame 0
 		tile_graphics theglow
 		background_graphics bgsolid
 		global_particle_1 none
-		decoration_2 TileCavesDeco1
 	}
 	7 {
 		area_label_frame 0
 		tile_graphics theglow
 		background_graphics bgsolid
 		global_particle_1 none
-		decoration_2 TileCavesDeco1
-		decoration_3 TileCavesDeco2
 	}
 	8 {
 		area_label_frame 0
 		tile_graphics theglow
 		background_graphics bgsolid
 		global_particle_1 none
-		decoration_2 TileCavesDeco1
-		decoration_3 TileCavesDeco2
 	}
 	8t {
 		area_label_frame 0
 		tile_graphics theglow
 		background_graphics bgsolid
 		global_particle_1 none
-		decoration_2 TileCavesDeco1
 	}
 	9 {
 		area_label_frame 0
 		tile_graphics theglow
 		background_graphics bgsolid
 		global_particle_1 none
-		decoration_2 TileCavesDeco1
-		decoration_3 TileCavesDeco2
 	}
 }
 
@@ -1298,17 +1173,11 @@ m5b {
 	tile_particle_5 drip
 	global_particle_1 rocks
 	decoration_1 CreepingMass
-	decoration_2 LockTileDeco
-	decoration_3 LockTileDeco2
 	
 	music [bumblebee_intro.ogg, bumblebee_loop.ogg]
 	ambience labloop.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 	
 	2 {
 		tile_particle_5 shardglow_up
@@ -1317,19 +1186,16 @@ m5b {
 		tile_particle_5 shardglow_left
 	}
 	13 {
-		tile_graphics Tilesalt
+		tile_graphics Tilecomplex
 	}
 	14 {
-		tile_graphics Tilesalt
+		tile_graphics Tilecomplex
 	}
 	21 {
 		tile_particle_5 shardglow_up
 	}
 	23 {
 		npc_1 NPC_NOTE
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory][SpeechBubble, SpeechBubbledud2]
-		]
 	}
 }
 
@@ -1362,21 +1228,17 @@ m5bxu {
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	4 {
-		tile_graphics Tilesalt
+		tile_graphics Tilecomplex
 	}
 	5 {
-		tile_graphics Tilesalt
+		tile_graphics Tilecomplex
 	}
 	8 {
-		tile_graphics Tilesalt
+		tile_graphics Tilecomplex
 	}
 	8t {
-		tile_graphics Tilesalt
+		tile_graphics Tilecomplex
 	}
 }
 
@@ -1408,10 +1270,6 @@ m5bxd {
 	ambience labloop.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 }
 
 #PATH C
@@ -1438,7 +1296,6 @@ m4c {
 	global_particle_1 cold
 	global_particle_2 mist
 	decoration_1 Deco10
-	decoration_2 Deco11Mother
 	
 	npc_1 NPCM_HOLLOWS1
 	npc_2 NPCM_HOLLOWS4
@@ -1453,7 +1310,6 @@ m4c {
 		[MiniFly, MiniWisp]
 		[MiniRat, MiniRatWhite]
 		[MiniFrog, MiniFrogWhite]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
@@ -1533,7 +1389,6 @@ m4cx {
 		[MiniFly, MiniWisp]
 		[MiniRat, MiniRatWhite]
 		[MiniFrog, MiniFrogWhite]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
@@ -1546,7 +1401,7 @@ m4cx {
 			[MiniRat, MiniRatWhite]
 			[MiniFrog, MiniFrogWhite]
 			[GlowShroom, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
+			
 		]
 	}
 	3 {
@@ -1556,7 +1411,7 @@ m4cx {
 			[MiniRat, MiniRatWhite]
 			[MiniFrog, MiniFrogWhite]
 			[GlowShroomSmall, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
+			
 		]
 	}
 	3t {
@@ -1591,15 +1446,11 @@ m4cx {
 		tile_particle_2 shardglow_right
 		
 		decoration_1 CreepingMass
-		decoration_2 TileEndDeco1
-		decoration_3 TileTox2Deco2
 	}
 	11 {
 		tile_graphics theglow
 		
 		decoration_1 CreepingMass
-		decoration_2 TileEndDeco1
-		decoration_3 TileTox2Deco2
 		
 		npc_1 NPCM_HOLLOWS6
 		
@@ -1608,16 +1459,14 @@ m4cx {
 			[MiniFly, MiniWisp]
 			[MiniRat, MiniRatWhite]
 			[MiniFrog, MiniFrogWhite]
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
+			
+			
 		]
 	}
 	12 {
 		tile_graphics theglow
 		
 		decoration_1 CreepingMass
-		decoration_2 TileEndDeco1
-		decoration_3 TileTox2Deco2
 		
 		music_volume 0.5
 	}
@@ -1643,8 +1492,6 @@ m5c {
 	midfx_graphics SolidBox
 	midfx_layer 2
 	
-	decoration_1 Decoration4Mother3
-	
 	tile_particle_1 spark
 	tile_particle_2 shardglow_up
 	tile_particle_3 shardglow_down
@@ -1658,19 +1505,12 @@ m5c {
 	ambience volcano.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 
 	19 {
 		sfx_file mutebuttons.txt
 	}
 	22 {
 		npc_1 NPC_NOTE
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory][SpeechBubble, SpeechBubbledud3]
-		]
 	}
 }
 
@@ -1687,8 +1527,6 @@ m5cx {
 	midfx_graphics SolidBox
 	midfx_layer 2
 	
-	decoration_1 ChainDeco
-	
 	tile_particle_1 spark
 	global_particle_1 embers
 	
@@ -1701,10 +1539,6 @@ m5cx {
 	ambience volcano.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 	
 	7 {
 		fx_shader_mid lavaglow_heatwave_low
@@ -1721,11 +1555,6 @@ m5cx {
 	
 	13 {
 		npc_1 NPCM_GOLGOTHA6
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory]
-			[ChainHitch, Nothing]
-			[SpeechBubble, SpeechBubbleMother]
-		]
 	}
 }
 
@@ -1762,10 +1591,6 @@ m1d {
 	ambience cogs.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
-	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
 	
 	0 {
 		area_name "none"
@@ -1831,19 +1656,11 @@ m6x {
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	0 {
 		tile_graphics Tilecity
 		overlay_graphics Overlayscity
 	}
 	6 {
-		art_alts [
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
-		]
 	}
 	7 {
 		tile_graphics Tilecity
@@ -1855,9 +1672,9 @@ m6x {
 m2d {
 	area_name "Gloom?"
 	area_label_frame 12
-	tile_graphics Tilegraveyard
+	tile_graphics Tilefield
 	overlay_graphics Overlaysfield
-	background_graphics ch2bg_b
+	background_graphics ch2bg
 	palette 12
 	
 	area_type dark
@@ -1872,33 +1689,25 @@ m2d {
 	tile_particle_3 shardglow_right
 	global_particle_1 fallout_r
 	global_particle_2 cloudwind_light
-	decoration_2 TileToxDeco1
 	
 	music [newworld_intro_dark.ogg, newworld_loop_dark.ogg]
 	ambience wind.ogg
 	
 	player_physics "data/playerphysics_mother.txt"
 	
-	art_alts [
-		[Player, Player2][Cartridge, PaperMemory]
-	]
-	
 	2 {
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	3 {
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	6 {
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	8 {
@@ -1906,13 +1715,11 @@ m2d {
 		shader_param 0.8
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	10 {
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	11 {
@@ -1927,7 +1734,6 @@ m2d {
 		shader_param 0.8
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	16 {
@@ -1935,7 +1741,6 @@ m2d {
 		shader_param 0.8
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 }
@@ -1960,7 +1765,6 @@ m7x {
 	tile_particle_5 drip
 	global_particle_1 cold
 	global_particle_2 mist
-	decoration_2 TileToxDeco1
 	
 	npc_1 NPCM_GLOOM1
 	npc_2 NPCM_GLOOM2
@@ -1973,20 +1777,17 @@ m7x {
 	
 	art_alts [
 		[MiniFly, MiniWisp]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	6 {
 		art_alts [
 			[MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	7 {
-		tile_graphics Tilegraveyard
+		tile_graphics Tilefield
 		overlay_graphics Overlaysfield
-		background_graphics ch2bg_b
+		background_graphics ch2bg
 		shader_param .9
 		tile_particle_1 dust
 		global_particle_1 fallout_r
@@ -1994,14 +1795,14 @@ m7x {
 		music [gymnopedies_intro.ogg, gymnopedies_loop.ogg]
 		ambience wind.ogg
 		ambience_volume 1.1
-		art_alts [[Player, Player2][Cartridge, PaperMemory]]
+		art_alts []
 	}
 }
 
 m3d {
 	area_name "Blight?"
 	area_label_frame 13
-	tile_graphics Tileneo
+	tile_graphics Tilecaves
 	overlay_graphics Overlayscaves
 	background_graphics ch3bg
 	palette 14
@@ -2032,9 +1833,7 @@ m3d {
 	
 	art_alts [
 		[OrbSmall, orbblob]
-		[Floater, orbblobFloater]
 		[ChainLink2, None]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
@@ -2059,8 +1858,6 @@ m3d {
 	7 {
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	10 {
@@ -2072,29 +1869,21 @@ m3d {
 	16 {
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	17 {
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	18 {
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	19 {
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	20 {
@@ -2102,8 +1891,6 @@ m3d {
 		
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
 		]
 	}
 	20t {
@@ -2165,7 +1952,6 @@ m3dx {
 	tile_particle_4 drip
 	tile_particle_5 splash
 	decoration_1 CreepingMass
-	decoration_2 TileComplexDeco2
 	
 	npc_1 NPCM_BLIGHT1
 	
@@ -2176,9 +1962,7 @@ m3dx {
 	
 	art_alts [
 		[OrbSmall, orbblob]
-		[Floater, orbblobFloater]
 		[ChainLink2, None]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
@@ -2223,7 +2007,7 @@ m8x {
 #3dx
 	area_name "Blight?"
 	area_label_frame 13
-	tile_graphics Tileneo
+	tile_graphics Tilecaves
 	overlay_graphics Overlayscaves
 	background_graphics ch3bg
 	palette 14
@@ -2258,7 +2042,6 @@ m8x {
 	art_alts [
 		[OrbSmall, orbblob]
 		[ChainLink2, None]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	7 {
 		tile_particle_4 surface_splash
@@ -2268,16 +2051,10 @@ m8x {
 		art_alts [
 			[OrbSmall, orbblob]
 			[ChainLink2, None]
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	9 {
 		tile_graphics Tiletox
-		art_alts [
-			[Floater, orbblobFloater]
-			[Player, Player2][Cartridge, PaperMemory]
-		]
 	}
 	10 {
 		tile_graphics theglow
@@ -2291,8 +2068,6 @@ m8x {
 		global_particle_1 none
 		global_particle_2 none
 		global_particle_3 none
-		
-		decoration_2 TileComplexDeco2
 		
 		npc_1 NPCM_BLIGHT5
 		
@@ -2323,9 +2098,7 @@ m6 {
 	tile_particle_3 shardglow_down
 	tile_particle_4 drip
 	tile_particle_5 toxicbubbles
-	decoration_1 EscapeEnd
 	decoration_2 CreepingMass
-	decoration_3 JarDeco
 	
 	npc_1 NPCM_RUIN1
 	npc_2 NPCM_RUIN4
@@ -2337,7 +2110,6 @@ m6 {
 	
 	art_alts [
 		[Fish, Fish2][MiniFly, MiniWisp]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
@@ -2383,12 +2155,9 @@ m6 {
 		tile_particle_1 debris
 		tile_particle_2 debris_l
 		tile_particle_3 debris_r
-		decoration_2 BallWithNoBrim
 		
 		art_alts [
 			[Fish, Fish2][MiniFly, MiniWisp]
-			[Player, Player2][Cartridge, PaperMemory]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 }
@@ -2427,7 +2196,6 @@ m9x {
 	
 	art_alts [
 		[Fish, Fish2]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 }
 
@@ -2460,7 +2228,6 @@ m7 {
 	global_particle_2 bgrain
 	global_particle_3 lightning
 	decoration_1 CreepingMass
-	decoration_3 MotherCutscene1
 	
 	music [requiem_intro.ogg, requiem_loop.ogg]
 	ambience flesh_extra.ogg
@@ -2475,8 +2242,6 @@ m7 {
 		[OrbChomp, MovingOrbBlob]
 		[OrbLarge, OrbLarge2]
 		[AimSpitter, AimSpitter2]
-		[Player, Player2]
-		[SpeechBubble, SpeechBubbleMother]
 	]
 	
 	0 {
@@ -2539,8 +2304,6 @@ m7 {
 			[ChainLink2, None]
 			[OrbChomp, MovingOrbBlob]
 			[OrbLarge, OrbLarge2]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother2]
 		]
 	}
 	21 {
@@ -2553,7 +2316,7 @@ m10x {
 #steven areas
 	area_name "Nevermore?"
 	area_label_frame 16
-	tile_graphics TileCore
+	tile_graphics TileEnd
 	overlay_graphics Overlaysend
 	background_graphics neverbg
 	palette 18
@@ -2587,7 +2350,6 @@ m10x {
 		[OrbChomp, MovingOrbBlob]
 		[OrbLarge, OrbLarge2]
 		[AimSpitter, AimSpitter2]
-		[Player, Player2][Cartridge, PaperMemory]
 	]
 	
 	1 {
@@ -2635,9 +2397,9 @@ m10x {
 m8 {
     area_name "Death Wish?"
     area_label_frame 17
-    tile_graphics Tilefallforest
+    tile_graphics Tilefield
     overlay_graphics Overlaysfield
-    background_graphics autumnbg
+    background_graphics bgsolid
     fx_shader ripples
 	fx_shader_mid living
 	midfx_graphics ShadeBox
@@ -2660,12 +2422,8 @@ m8 {
 	player_physics "data/playerphysics_mother.txt"
 
 	art_alts [
-		[Floater, ColdFloater]
-        [OrbSmall, coldblob]
         [ChainLink2, None]
-        [OrbLarge, coldbloblorg]
 		[MiniFly, MiniWisp]
-		[Player, Player2][Cartridge, PaperMemory]
     ]
 
 }
@@ -2702,9 +2460,6 @@ m9 {
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, OrbLarge2]
         [AimSpitter, AimSpitter2]
-		[Floater, Tendril]
-		[Player, Player2]
-		[SpeechBubble, SpeechBubbleMother]
     ]
 	
 	player_physics "data/playerphysics_mother.txt"
@@ -2721,14 +2476,13 @@ m9 {
 		global_particle_2 bgrain
 		global_particle_3 distortrain
 		
-		decoration_2 TileCavesDeco2
 		music [danse_intro.ogg, danse_loop.ogg]
 		ambience rain.ogg
 	}
 	2 {
-		tile_graphics Tilegraveyard
+		tile_graphics Tilefield
 		overlay_graphics Overlaysfield
-		background_graphics ch2bg_b
+		background_graphics ch2bg
 		palette 2 
 		
 		fx_shader ripples
@@ -2738,8 +2492,6 @@ m9 {
 		tile_particle_1 dust
 		global_particle_1 leaves
 		global_particle_2 cloudwind_light
-		decoration_2 TileToxDeco1
-		decoration_3 TileCavesDeco1
 		
 		npc_1 NPC_MINDPRISON1
 		
@@ -2747,7 +2499,7 @@ m9 {
 		ambience wind.ogg
 	}
 	3 {
-		tile_graphics Tileneo
+		tile_graphics Tilecaves
 		overlay_graphics Overlayscaves
 		background_graphics ch3bg
 		palette 4
@@ -2756,9 +2508,6 @@ m9 {
 		fx_shader_mid distortionparticles
 		midfx_layer 1
 		
-		decoration_2 TileFieldDeco1
-		decoration_3 TileFieldDeco2
-		
 		npc_1 NPC_MINDPRISON2
 		
 		music [1812_intro.ogg, 1812_loop.ogg]
@@ -2766,7 +2515,7 @@ m9 {
 		ambience_volume 1.2
 	}
 	3x {
-		tile_graphics Tileneo
+		tile_graphics Tilecaves
 		overlay_graphics Overlayscaves
 		background_graphics ch3bg
 		palette 4
@@ -2792,7 +2541,6 @@ m9 {
 		global_particle_1 wind2
 		global_particle_2 wind
 		global_particle_3 cloudwind
-		decoration_2 TileCavesDeco2
 		
 		music [hungarian_rhapsody_intro.ogg, hungarian_rhapsody_loop.ogg]
 		ambience wind.ogg
@@ -2813,13 +2561,12 @@ m9 {
 		global_particle_1 wind2
 		global_particle_2 wind
 		global_particle_3 cloudwind
-		decoration_2 TileCavesDeco2
 		
 		music [hungarian_rhapsody_intro.ogg, hungarian_rhapsody_loop.ogg]
 		ambience wind.ogg
 	}
 	5 {
-		tile_graphics Tilegraveyard
+		tile_graphics Tilefield
 		overlay_graphics Overlayshell
 		background_graphics field2bg
 		palette 7
@@ -2831,8 +2578,6 @@ m9 {
 		
 		tile_particle_5 glitch_drip
 		global_particle_1 rocks
-		decoration_2 TileToxDeco1
-		decoration_3 TileComplexDeco2
 		
 		npc_1 NPC_MINDPRISON4
 		
@@ -2841,8 +2586,8 @@ m9 {
 		art_alts [
 			[AimSpitter,eyeshooter]
 			[Bullet,eyebullet][MiniFrog, MiniFlea]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
+			
+			
 		]
 	}
 	6 {
@@ -2870,8 +2615,6 @@ m9 {
 			[MiniFly, MiniWisp]
 			[MiniRat, MiniRatWhite]
 			[MiniFrog, MiniFrogWhite]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	7 {
@@ -2942,8 +2685,6 @@ m9 {
 		midfx_graphics SolidBox
 		midfx_layer 2
 		
-		decoration_1 Decoration4Mother3
-		
 		tile_particle_1 spark
 		global_particle_1 embers
 		
@@ -2976,16 +2717,11 @@ m9 {
 		
 		music [danse_intro_dark.ogg, danse_loop_dark.ogg]
 		ambience cogs.ogg
-		
-		art_alts [
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
-		]
 	}
 	11 {
-		tile_graphics Tilegraveyard
+		tile_graphics Tilefield
 		overlay_graphics Overlaysfield
-		background_graphics ch2bg_b
+		background_graphics ch2bg
 		palette 12
 		
 		area_type dark
@@ -3000,18 +2736,12 @@ m9 {
 		tile_particle_1 dust
 		global_particle_1 fallout_r
 		global_particle_2 cloudwind_light
-		decoration_2 TileToxDeco1
 		
 		music [newworld_intro_dark.ogg, newworld_loop_dark.ogg]
 		ambience wind.ogg
-		
-		art_alts [
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
-		]
 	}
 	12 {
-		tile_graphics Tileneo
+		tile_graphics Tilecaves
 		overlay_graphics Overlayscaves
 		background_graphics ch3bg
 		palette 14
@@ -3035,10 +2765,7 @@ m9 {
 		
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
 			[ChainLink2, None]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	12x {
@@ -3062,10 +2789,7 @@ m9 {
 		
 		art_alts [
 			[OrbSmall, orbblob]
-			[Floater, orbblobFloater]
 			[ChainLink2, None]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	13 {
@@ -3093,8 +2817,6 @@ m9 {
 		
 		art_alts [
 			[Fish, Fish2][MiniFly, MiniWisp]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	13t {
@@ -3117,11 +2839,6 @@ m9 {
 		ambience wet_caves.ogg
 		
 		sfx_file eastereggs.txt
-		
-		art_alts [
-			[Player, Player2]
-			[SpeechBubble, MotherCutsceneU]
-		]
 	}
 	13x {
 		tile_graphics theglow
@@ -3148,8 +2865,6 @@ m9 {
 		
 		art_alts [
 			[Fish, Fish2][MiniFly, MiniWisp]
-			[Player, Player2]
-			[SpeechBubble, SpeechBubbleMother]
 		]
 	}
 	14 {
@@ -3174,7 +2889,7 @@ m9 {
 		do_tilt true
 	}
 	15 {
-		tile_graphics Tilegraveyard
+		tile_graphics Tilefield
 		overlay_graphics Overlaysfield
 		background_graphics bg2
 		foreground_graphics fg1
@@ -3196,14 +2911,9 @@ m9 {
 		ambience rain.ogg
 		
 		npc_1 NPC_CONSOLE3
-		
-		art_alts [
-			[Player, Player2]
-			[GlowShroom, Nothing]
-		]
 	}
 	15x {
-		tile_graphics Tilegraveyard
+		tile_graphics Tilefield
 		overlay_graphics Overlaysfield
 		fx_shader rainripples
 		fx_shader_mid lighting
@@ -3231,12 +2941,6 @@ m9 {
 		ambience none
 		
 		sfx_file eastereggs.txt
-		
-		art_alts [
-			[Player, PlayerShorts]
-			[GlowShroom, Nothing]
-			[Sentry, Nothing]
-		]
 	}
 }
 
@@ -3263,8 +2967,6 @@ m10 {
         [OrbChomp, MovingOrbBlob]
         [OrbLarge, OrbLarge2]
         [AimSpitter, AimSpitter2]
-		[Floater, Tendril]
-		[Player, Player2]
     ]
 	
 	player_physics "data/playerphysics_mother.txt"

@@ -218,16 +218,12 @@ c9 {
 		]
 	}
 	10 {
-		decoration_1 TimeFcukDeco
-		decoration_2 TimeFcukDeco2
 		music [nailbed_intro.ogg, nailbed_loop.ogg]
 	}
 	11 {
 		music [nailbed_intro.ogg, nailbed_loop.ogg]
 	}
 	12 {
-		decoration_1 Wipetranssteven
-		decoration_2 CreepingMass
 		music [nailbed_intro.ogg, nailbed_loop.ogg]
 	}
 }

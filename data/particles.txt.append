@@ -1,6 +1,6 @@
 crystal_shards {
     #system TestParticle
-    movieclip CrystalShard
+    movieclip TestParticle
     max_particles 300
     layer 1
     livebounds [-10, 64, -10, 42]
@@ -33,7 +33,7 @@ crystal_shards {
 }
 
 drillblock_destroy {
-    movieclip Rock2
+    movieclip TestParticle
     max_particles 500
     layer 2
     livebounds [-10, 64, -10, 42]
@@ -67,7 +67,7 @@ drillblock_destroy {
 
 fallleaves {
     #system TestParticle
-    movieclip FallLeaf
+    movieclip TestParticle
     max_particles 100
     layer 1
     livebounds [-10, 64, -10, 42]
@@ -101,7 +101,7 @@ fallleaves {
 
 flowing_electricity {
     #system properties
-    movieclip FlowingElectricity
+    movieclip TestParticle
     max_particles 500
     layer 1
     livebounds [-10, 64, -10, 42]
@@ -134,7 +134,7 @@ flowing_electricity {
 
 glitch_drip {
 	#system properties
-	movieclip glitchdrip
+	movieclip TestParticle
 	max_particles 250
 	layer 1
 	livebounds [-10, 64, -10, 42]
@@ -201,7 +201,7 @@ gunpowder {
 
 rising_wisp {
     #system properties
-    movieclip ShootingStar
+    movieclip TestParticle
     max_particles 500
     layer 1
     livebounds [-10, 64, -10, 42]
@@ -366,7 +366,7 @@ shardglow_up {
 
 shooting_star {
     #system TestParticle
-    movieclip ShootingStar
+    movieclip TestParticle
     max_particles 200
     layer 3
     livebounds [-32, 64, -10, 50]
