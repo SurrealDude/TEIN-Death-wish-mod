@@ -126,13 +126,13 @@ SoundEffectGroups {
     }
 
     CollectLife {  #testlevels: 1-1
-        files [SmallTumorv2.wav]
-        volume .9
+        files [Drown_v3-001.wav]
+        volume 0
     }
 
     CollectBigLife {
-        files [BigTumor.wav]
-        volume 1
+        files [Drown_v3-001.wav]
+        volume 0
     }
 
     CollectHead{
@@ -216,9 +216,8 @@ SoundEffectGroups {
     }
 
     Crumble {  #testlevels: 1-10, 6-13
-        files [Rock_Crumble-001.wav, Rock_Crumble-002.wav,Rock_Crumble-003.wav,Rock_Crumble-004.wav]
-        volume 1
-        pitch_range [.8, 1.2]
+        files [Drown_v3-001.wav]
+        volume 0
     }
 
     Click {  #testlevels: 5bxd-6

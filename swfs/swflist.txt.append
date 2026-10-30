@@ -1,8 +1,7 @@
 game [
-es_npcs.swf
-endnigh.swf
 surreal_assets.swf
 surreal_npcs.swf
+surreal_dialogue_bubbles.swf
 tilecity_new.swf
 tilegraveyard.swf
 tileneo.swf
@@ -11,8 +10,9 @@ es_tilesets.swf
 remake_tilesets.swf
 remake_retrotilesets.swf
 fgdeco_artalts.swf
-floaterglitch_fix.swf
-basegame_npcs_fix.swf
+remake_npcs.swf
+retro-assets-redux.swf
+retro-hud.swf
 surreal_tilesets.swf
 surreal_shorts.swf
 ]

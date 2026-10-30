@@ -1,0 +1,12 @@
+SoundEffectGroups.append {
+    CollectKey{
+        files [get.wav]
+        volume 1
+    }
+
+    Unlock {  #testlevels: 5a-5x
+        files [door.wav]
+        volume 1
+        pitch_range [.8, 1.2]
+    }
+}

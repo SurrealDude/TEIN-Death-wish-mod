@@ -504,4 +504,7 @@ SoundEffectGroups {
     NPCStevenCameo {
         files [StevenNPC.wav]
     }
+    NPCAshLosesIt {
+        files [ash_has_had_it.wav]
+    }
 }

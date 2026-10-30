@@ -1,0 +1,38 @@
+gravity 20
+leniency .1
+max_fallspeed -60
+
+maxspeed 40
+runspeed 40
+
+ground_friction .1
+stop_friction .99
+air_friction .99
+
+
+fastfall_gravity 20
+fastfall_jerkdown 20
+fastfall_maxspeed -20
+
+float_time 0
+
+jumpheight 6.2
+release_jumpheight 3.2
+
+longjump_slidethreshold 5
+longjump_speed 16
+longjump_height 1.9
+longjump_airfriction .7
+
+ledgejump_height 3
+
+
+enemy_bounceheight_nojump .7
+enemy_bounceheight_jump 4.2
+mush_bounceheight_nojump 2.7
+mush_bounceheight_jump 8.2
+enemy_prebounce_time 999999
+enemy_postbounce_time .05
+
+swimspeed -40
+water_exitheight -2
